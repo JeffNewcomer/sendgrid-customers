@@ -3,6 +3,11 @@ div.container {
   height: 640px;
 }
 
+body {
+  font-family: 'ColfaxRegular';
+  font-size: 13.5px;
+}
+
 .row {
   display: flexboxgrid;
   flex-direction: column;
@@ -20,7 +25,11 @@ div.difference-header {
 }
 
 h1 {
-  font-size: 1.9em;
+  font-size: 1.85rem;
+}
+
+h2 {
+  font-size: 1rem;
 }
 
 .difference-images {
@@ -36,9 +45,7 @@ h1 {
   font-size: 0.97em;
 }
 
-.regular-text {
-  font-family: 'ColfaxRegular';
-  font-size: 0.8em;
+p {
   line-height: 1.5;
 }
 
