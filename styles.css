@@ -1,0 +1,62 @@
+body {
+  font-family: 'ColfaxRegular';
+  font-size: 13.5px;
+  color: rgb(0, 51, 85); 
+}
+
+h1 {
+  font-size: 1.85rem;
+  font-family: 'ColfaxWebMedium';
+  padding: 1.7rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-family: 'ColfaxWebMedium';
+  padding: 1rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+section {
+  text-align: center;
+}
+
+img {
+  width: 90%;
+}
+
+a {
+  color: rgba(82, 158, 226, 1);
+}
+
+.grid {
+  padding-left: 9.5rem;
+  padding-right: 9.5rem;
+}
+
+.difference-footer-div {
+  padding: 2.5rem;
+}
+
+@font-face {
+  font-family: 'ColfaxRegular';
+  src: url('fonts/ColfaxRegular.woff');
+}
+
+@font-face {
+  font-family: 'ColfaxWebLight';
+  src: url('fonts/ColfaxWebLight.woff');
+}
+
+@font-face {
+  font-family: 'ColfaxWebMedium';
+  src: url('fonts/ColfaxWebMedium.woff');
+}
+
+@font-face {
+  font-family: 'ColfaxWebMediumItalic';
+  src: url('fonts/ColfaxWebMediumItalic.woff');
+}
