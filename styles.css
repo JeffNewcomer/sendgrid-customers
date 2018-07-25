@@ -1,3 +1,7 @@
+div {
+  border: 1px solid black;
+}
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -6,8 +10,6 @@ body {
 
 .col {
   flex: 1;
-  margin: 0.1em;
-  padding: 0.8em;
 }
 
 h1 {
@@ -28,8 +30,8 @@ section {
   text-align: center;
 }
 
-.difference-images {
-  width: 270px;
+img {
+  width: 100%;
 }
 
 a {
