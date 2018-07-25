@@ -1,25 +1,19 @@
-div {
-  border: 1px solid black;
-}
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
   color: rgb(0, 51, 85);
 }
 
-.col {
-  flex: 1;
-}
-
 h1 {
   font-size: 1.85rem;
   font-family: 'ColfaxWebMedium';
+  padding: 1.7rem;
 }
 
 h2 {
   font-size: 1rem;
   font-family: 'ColfaxWebMedium';
+  padding: 1rem;
 }
 
 p {
@@ -31,11 +25,20 @@ section {
 }
 
 img {
-  width: 100%;
+  width: 90%;
 }
 
 a {
-  color: rgb(137, 186, 233);
+  color: rgba(82, 158, 226, 1);
+}
+
+.grid {
+  padding-left: 9.5rem;
+  padding-right: 9.5rem;
+}
+
+.difference-footer-div {
+  padding: 2.5rem;
 }
 
 @font-face {
