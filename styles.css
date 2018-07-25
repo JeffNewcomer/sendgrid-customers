@@ -1,16 +1,7 @@
-div.container {
-  width: 60rem;
-  height: 640px;
-}
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
-}
-
-.row {
-  display: flexboxgrid;
-  flex-direction: column;
+  color: rgb(0, 51, 85);
 }
 
 .col {
@@ -19,46 +10,30 @@ body {
   padding: 0.8em;
 }
 
-div.difference-header {
-  margin-top: 50px;
-  margin-bottom: 15px;
-}
-
 h1 {
   font-size: 1.85rem;
+  font-family: 'ColfaxWebMedium';
 }
 
 h2 {
   font-size: 1rem;
-}
-
-.difference-images {
-  width: 270px;
-}
-
-.centered {
-  text-align: center;
-}
-
-.bolder-text {
   font-family: 'ColfaxWebMedium';
-  font-size: 0.97em;
 }
 
 p {
   line-height: 1.5;
 }
 
-.darker-blue-text {
-  color: rgb(0, 51, 85);
+section {
+  text-align: center;
 }
 
-.blue-text {
+.difference-images {
+  width: 270px;
+}
+
+a {
   color: rgb(137, 186, 233);
-}
-
-.difference-footer-div {
-  margin-top: 2.5em;
 }
 
 @font-face {
@@ -80,7 +55,3 @@ p {
   font-family: 'ColfaxWebMediumItalic';
   src: url('fonts/ColfaxWebMediumItalic.woff');
 }
-
-/* @media screen and (min-width: 500px) {
-  .row { display: flex; flex-direction: row; }
-} */
