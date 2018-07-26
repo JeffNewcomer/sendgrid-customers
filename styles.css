@@ -14,18 +14,17 @@ h1 {
   padding: 1.7rem;
 }
 
+.difference-section-h2 {
+  padding: 1rem;
+}
+
 h2 {
   font-size: 1rem;
   font-family: 'ColfaxWebMedium';
-  padding: 1rem;
 }
 
 p {
   line-height: 1.5;
-}
-
-section {
-  text-align: center;
 }
 
 img {
@@ -36,9 +35,10 @@ a {
   color: rgba(82, 158, 226, 1);
 }
 
-.grid {
+#difference-section {
   padding-left: 9.5rem;
   padding-right: 9.5rem;
+  text-align: center;
 }
 
 .difference-footer-div {
@@ -55,6 +55,30 @@ a {
   width: 37rem;
   margin-top: 12rem;
 }
+
+#plans-pricing-button {
+  background-color: white;
+  border-radius: 4px;
+}
+
+#whitespace {
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 9rem;
+  padding: 2rem;
+}
+
+#subscribe-button {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 12px;
+}
+
+
 
 @font-face {
   font-family: 'ColfaxRegular';
