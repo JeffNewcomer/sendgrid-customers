@@ -70,16 +70,24 @@ a {
   margin-top: 12rem;
 }
 
+button.bordered {
+  border-radius: 3px;
+}
+
 #plans-pricing-button {
   background-color: white;
-  border-radius: 3px;
   width: 14rem;
-  height: 2.4rem;
-  margin-top: 1.4rem;
-  padding-top: 15px;
+  height: 3rem;
   color: #4da6e5;
-  text-align: center;
-  font-size: 1.025rem;
+  font-size: 1rem;
+}
+
+#subscribe-button {
+  width: 6rem;
+  height: 3rem;
+  border: solid 1px rgba(82, 158, 226, 1);
+  color: #4da6e5;
+  font-size: 0.8rem;
 }
 
 #confidence-section-whitespace {
@@ -100,15 +108,6 @@ a {
 #confidence-section-whitespace h2 {
   padding-bottom: 1rem;
   color: rgb(0, 51, 85);
-}
-
-#subscribe-button {
-  width: 6rem;
-  height: 2rem;
-  border-radius: 3px;
-  border: solid 1px rgba(82, 158, 226, 1);
-  text-align: center;
-  padding-top: 12px;
 }
 
 @font-face {
