@@ -9,12 +9,12 @@ h1 {
   font-family: 'ColfaxWebMedium';
 }
 
-.difference-section-h1 {
+.difference-section-header {
   padding-top: 3.5rem;
   padding-bottom: 2.7rem;
 }
 
-.difference-section-h2 {
+.difference-section-subheaders {
   padding: 0.7rem;
 }
 
@@ -41,22 +41,39 @@ a {
   text-align: center;
 }
 
-.difference-footer-div {
+.difference-footer {
   padding-top: 2.5rem;
-  display: inline-block;
   padding-bottom: 6rem;
 }
 
-#confidence-section-div-left {
-  margin-left: 8.5rem;
-  margin-top: 10rem;
-  text-align: left;
+#confidence-section-pricing-cta {
   color: white;
+  margin-left: 9rem;
+  margin-top: 9.5rem;
 }
 
-#confidence-section-div-left p {
-  line-height: 1.5;
+#confidence-section-pricing-cta p {
+  line-height: 2;
   font-size: 1rem;
+  padding-bottom: 0.4rem;
+}
+
+#confidence-section-blog-links {
+  background-color: white;
+  color: #4da6e5;
+  width: 21rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+
+#confidence-section-blog-links p {
+  line-height: 1.8;
+}
+
+#confidence-section-blog-links h2 {
+  color: rgb(0, 51, 85);
+  padding-bottom: 1rem;
 }
 
 .blue-bg {
@@ -64,20 +81,20 @@ a {
   background-color: rgb(44, 134, 220);
 }
 
-#blue-bg {
+#blue-bg-squares {
   position: absolute;
   width: 37rem;
   margin-top: 12rem;
 }
 
-button.bordered {
+.bordered {
   border-radius: 3px;
 }
 
 #plans-pricing-button {
   background-color: white;
   width: 14rem;
-  height: 3rem;
+  height: 3.5rem;
   color: #4da6e5;
   font-size: 1rem;
 }
@@ -88,26 +105,6 @@ button.bordered {
   border: solid 1px rgba(82, 158, 226, 1);
   color: #4da6e5;
   font-size: 0.8rem;
-}
-
-#confidence-section-whitespace {
-  background-color: white;
-  border-radius: 3px;
-  margin-top: 5rem;
-  margin-left: 5rem;
-  margin-right: 9rem;
-  padding: 2rem;
-  display: inline-block;
-  color: #4da6e5;
-}
-
-#confidence-section-whitespace p {
-  line-height: 1.8;
-}
-
-#confidence-section-whitespace h2 {
-  padding-bottom: 1rem;
-  color: rgb(0, 51, 85);
 }
 
 @font-face {
