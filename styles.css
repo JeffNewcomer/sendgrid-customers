@@ -67,8 +67,10 @@ a {
   padding: 2rem;
 }
 
-#confidence-section-blog-links p {
+#confidence-section-blog-links a {
   line-height: 1.8;
+  padding-bottom: 1rem;
+  display: block;
 }
 
 #confidence-section-blog-links h2 {
@@ -76,7 +78,7 @@ a {
   padding-bottom: 1rem;
 }
 
-.blue-bg {
+#blue-bg {
   height: 31.5rem;
   background-color: rgb(44, 134, 220);
 }
@@ -84,7 +86,8 @@ a {
 #blue-bg-squares {
   position: absolute;
   width: 37rem;
-  margin-top: 12rem;
+  height: 18.5rem;
+  margin-top: 13rem;
 }
 
 .bordered {
