@@ -1,11 +1,3 @@
-/* div {
-  border: 2px solid red;
-} */
-
-button {
-  cursor: pointer;
-}
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -33,6 +25,7 @@ img {
 a {
   color: #4da6e5;
   cursor: pointer;
+  text-decoration: none;
 }
 
 hr {
@@ -40,6 +33,19 @@ hr {
   margin-left: 0;
   border: 1px solid rgb(66, 89, 111);
   margin-bottom: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+div.footer-btn {
+  margin-left: 0.4rem;
+  border-radius: 0;
+  display: inline-block;
+  background-color: rgb(44, 134, 220);
+  padding: 0.1rem 0.3rem;
+  font-size: 0.68rem;
 }
 
 .difference-footer {
@@ -66,13 +72,71 @@ hr {
   color: white;
 }
 
-div.footer-btn {
-  margin-left: 0.4rem;
-  border-radius: 0;
-  display: inline-block;
-  background-color: rgb(44, 134, 220);
-  padding: 0.1rem 0.3rem;
-  font-size: 0.68rem;
+.col {
+  flex: 1;
+}
+
+.small-icons {
+  width: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.footer-icons {
+  margin-left: 2.7rem;
+  margin-top: 1rem;
+}
+
+.dropdown dd,
+.dropdown dt,
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+}
+
+.email dd,
+.email dt,
+.email ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+
+.dropdown dt a {
+  background: url("images/caret-south-blue.png") no-repeat right center;
+  display: block;
+  padding-right: 20px;
+  border: 1px solid lightgray;
+  width: 18rem;
+  height: 2.2rem;
+  float: right;
+}
+
+.email dt a {
+  display: block;
+  border: 1px solid lightgray;
+  width: 13rem;
+  height: 2.2rem;
+  float: left;
+}
+
+.email dt a span {
+  cursor: pointer;
+  display: block;
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  color: rgb(169, 181, 191);
+}
+
+.dropdown dt a span {
+  cursor: pointer;
+  display: block;
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  color: rgb(44, 70, 95);
 }
 
 #plans-pricing-button {
@@ -94,7 +158,7 @@ div.footer-btn {
 #confidence-section-pricing-cta {
   color: white;
   margin-left: 9rem;
-  margin-top: 9.5rem;
+  margin-top: 7.5rem;
 }
 
 #difference-section {
@@ -118,12 +182,6 @@ div.footer-btn {
   padding: 2rem;
 }
 
-#confidence-section-blog-links a {
-  line-height: 1.8;
-  padding-bottom: 1rem;
-  display: block;
-}
-
 #confidence-section-blog-links h2 {
   color: rgb(0, 51, 85);
   padding-bottom: 1rem;
@@ -141,22 +199,11 @@ div.footer-btn {
   margin-top: 13rem;
 }
 
-.col {
-  flex: 1;
-}
-
 #footer-links {
   padding-left: 2.5rem;
   padding-top: 1rem;
   background-color: rgb(44, 70, 95);
   height: 26.7rem;
-}
-
-#footer-links a {
-  line-height: 1.8;
-  padding-bottom: 1rem;
-  display: block;
-  color: rgb(213, 218, 223);
 }
 
 #footer-links p {
@@ -175,24 +222,64 @@ div.footer-btn {
   width: 100%;
 }
 
-.small-icons {
-  width: 1rem;
-  padding-right: 1rem;
-}
-
-.footer-icons {
-  margin-left: 2.7rem;
-  margin-top: 1rem;
-}
-
 #footer-legal {
   margin-left: 39rem;
   margin-top: 1rem;
 }
 
+#bottom-footer {
+  background-color: rgb(243, 249, 253);
+}
+
+#bottom-footer img {
+  width: 6.5rem;
+  margin: 2.3rem 0 1.5rem auto;
+}
+
+#bottom-footer h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(44, 70, 95);
+}
+
+#sign-up {
+  height: 2.3rem;
+  width: 5rem;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.2rem;
+  background-color: rgb(80, 157, 226);
+  color: white;
+}
+
+#confidence-section-blog-links a {
+  line-height: 1.8;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+#footer-links a {
+  line-height: 1.8;
+  padding-bottom: 1rem;
+  display: block;
+  color: rgb(213, 218, 223);
+}
+
 #footer-legal a {
   padding-right: 2rem;
   color: rgb(213, 218, 223);
+}
+
+#privacy-footer {
+  text-align: center;
+  margin: 2.2rem auto 0.7rem auto;
+}
+
+#privacy-footer a {
+  color: #4da6e5;
 }
 
 @font-face {
