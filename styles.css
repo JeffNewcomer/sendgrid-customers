@@ -1,3 +1,7 @@
+/* div {
+  border: solid red 1px;
+} */
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -29,10 +33,7 @@ a {
 }
 
 hr {
-  width: 25%;
-  margin-left: 0;
-  border: 1px solid rgb(66, 89, 111);
-  margin-bottom: 1.6rem;
+  border: 0.5px solid rgb(66, 89, 111);
 }
 
 button {
@@ -46,6 +47,12 @@ div.footer-btn {
   background-color: rgb(44, 134, 220);
   padding: 0.1rem 0.3rem;
   font-size: 0.68rem;
+}
+
+.links-lists hr {
+  width: 25%;
+  margin-left: 0;
+  margin-bottom: 1.6rem;
 }
 
 .difference-footer {
@@ -66,10 +73,12 @@ div.footer-btn {
   border-radius: 3px;
 }
 
-.footer-link-containers p {
-  padding-bottom: 0.5rem;
-  padding-top: 3rem;
+.footer-link-containers h6 {
+  padding-top: 2rem;
   color: white;
+  font-family: 'ColfaxWebMedium';
+  letter-spacing: 1.2px;
+  font-size: 0.65rem;
 }
 
 .col {
@@ -78,13 +87,22 @@ div.footer-btn {
 
 .small-icons {
   width: 1rem;
-  padding-right: 1rem;
+  padding-right: 0.7rem;
   cursor: pointer;
 }
 
-.footer-icons {
-  margin-left: 2.7rem;
-  margin-top: 1rem;
+.sub-footer-legal {
+  text-align: right;
+}
+
+.sub-footer-legal a {
+  padding-left: 2rem;
+  color: rgb(213, 218, 223);
+}
+
+.sub-footer {
+  padding: 0 2.7rem;
+  margin-top: 2.4rem;
 }
 
 .dropdown dd,
@@ -139,6 +157,11 @@ div.footer-btn {
   color: rgb(44, 70, 95);
 }
 
+.links-lists {
+  list-style-type: none;
+  padding: 0;
+}
+
 #plans-pricing-button {
   background-color: white;
   width: 14rem;
@@ -158,7 +181,7 @@ div.footer-btn {
 #confidence-section-pricing-cta {
   color: white;
   margin-left: 9rem;
-  margin-top: 7.5rem;
+  margin-top: 9.5rem;
 }
 
 #difference-section {
@@ -201,15 +224,9 @@ div.footer-btn {
 
 #footer-links {
   padding-left: 2.5rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   background-color: rgb(44, 70, 95);
   height: 26.7rem;
-}
-
-#footer-links p {
-  font-family: 'ColfaxWebMedium';
-  font-size: 0.7rem;
-  padding-bottom: 0.8rem;
 }
 
 #footer-lower-section {
@@ -217,15 +234,10 @@ div.footer-btn {
   height: 6.8rem;
   padding: 0;
 }
-
+/* 
 #footer-lower-section hr {
-  width: 100%;
-}
-
-#footer-legal {
-  margin-left: 39rem;
-  margin-top: 1rem;
-}
+  width: 99.8%;
+} */
 
 #bottom-footer {
   background-color: rgb(243, 249, 253);
@@ -261,15 +273,9 @@ div.footer-btn {
   display: block;
 }
 
-#footer-links a {
+#footer-links li {
   line-height: 1.8;
   padding-bottom: 1rem;
-  display: block;
-  color: rgb(213, 218, 223);
-}
-
-#footer-legal a {
-  padding-right: 2rem;
   color: rgb(213, 218, 223);
 }
 
