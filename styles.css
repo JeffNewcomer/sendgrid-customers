@@ -1,3 +1,7 @@
+div, section {
+  border: 4px solid red;
+}
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
