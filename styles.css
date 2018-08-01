@@ -2,6 +2,8 @@
   border: solid red 1px;
 } */
 
+
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -32,10 +34,6 @@ a {
   text-decoration: none;
 }
 
-hr {
-  border: 0.5px solid rgb(66, 89, 111);
-}
-
 button {
   cursor: pointer;
 }
@@ -49,10 +47,48 @@ div.footer-btn {
   font-size: 0.68rem;
 }
 
+.large-numbers {
+  font-size: 3.5rem;
+  color: rgb(53, 199, 116);
+  font-weight: lighter;
+}
+
+.did-you-know-text {
+  font-size: 0.8rem;
+  color: rgb(53, 199, 116);
+  line-height: 1.5;
+}
+
+.did-you-know-card-1 {
+  float: right;
+}
+
+.did-you-know-card {
+  width: 29rem;
+  height: 13rem;
+  box-shadow: -1px 27px 31px -22px rgba(173, 173, 173, 1);
+  margin: 0.5rem;
+  border: 0.5px solid lightgray;
+  text-align: left;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.did-you-know-card h1 {
+  position: absolute;
+  bottom: 3rem;
+}
+
+.did-you-know-card h6 {
+  position: absolute;
+  bottom: 3rem;
+}
+
 .links-lists hr {
   width: 25%;
   margin-left: 0;
   margin-bottom: 1.6rem;
+  border: 0.5px solid rgb(66, 89, 111);
 }
 
 .difference-footer {
@@ -125,7 +161,6 @@ div.footer-btn {
 
 .dropdown dt a {
   background: url("images/caret-south-blue.png") no-repeat right center;
-  display: block;
   padding-right: 20px;
   border: 1px solid lightgray;
   width: 18rem;
@@ -134,7 +169,6 @@ div.footer-btn {
 }
 
 .email dt a {
-  display: block;
   border: 1px solid lightgray;
   width: 13rem;
   height: 2.2rem;
@@ -160,6 +194,13 @@ div.footer-btn {
 .links-lists {
   list-style-type: none;
   padding: 0;
+}
+
+.did-you-know-card img {
+  width: 20rem;
+  position: relative;
+  margin-left: 9rem;
+  margin-top: 7rem;
 }
 
 #plans-pricing-button {
@@ -188,6 +229,23 @@ div.footer-btn {
   padding-left: 9.5rem;
   padding-right: 9.5rem;
   text-align: center;
+}
+
+#did-you-know-section {
+  text-align: center;
+  height: 0;
+}
+
+#did-you-know-section h1 {
+  padding: 0;
+  margin: 0;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+#did-you-know-container {
+  background-color: rgb(248, 248, 250);
+  height: 32rem;
 }
 
 #confidence-section-pricing-cta p {
