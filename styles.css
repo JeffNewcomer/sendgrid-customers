@@ -1,5 +1,5 @@
 div, section {
-  border: 4px solid red;
+  border: 0.5px solid red;
 }
 
 body {
@@ -24,7 +24,7 @@ p {
   line-height: 1.5;
 }
 
-img {
+#difference-section img {
   width: 90%;
 }
 
@@ -77,6 +77,33 @@ div.footer-btn {
   background-image: url('images/wave-background.svg');
   background-position: right bottom;
   background-repeat: no-repeat;
+}
+
+.logo-containers {
+  border: 0.5px solid lightgray;
+  width: 13.5rem;
+  height: 10rem;
+  box-shadow: -1px 7px 22px -5px rgba(173, 173, 173, 1);
+  margin: 1.75rem 0.5rem;
+  position: relative;
+}
+
+.pink-play-icon {
+  position: absolute;
+  margin-top: 0.75rem;
+  margin-left: 10.5rem;
+  width: 1.75rem;
+}
+
+.customer-section-logos {
+  position: absolute;
+  max-width: 60%;
+  margin-top: 3.5rem;
+  margin-left: 2rem;
+}
+
+#logo-container {
+  margin: 0 auto;
 }
 
 .links-lists hr {
