@@ -1,3 +1,7 @@
+/* div {
+  border: solid red 1px;
+} */
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -7,15 +11,6 @@ body {
 h1 {
   font-size: 1.85rem;
   font-family: 'ColfaxWebMedium';
-}
-
-.difference-section-header {
-  padding-top: 3.5rem;
-  padding-bottom: 2.7rem;
-}
-
-.difference-section-subheaders {
-  padding: 0.7rem;
 }
 
 h2 {
@@ -33,12 +28,31 @@ img {
 
 a {
   color: #4da6e5;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-#difference-section {
-  padding-left: 9.5rem;
-  padding-right: 9.5rem;
-  text-align: center;
+hr {
+  border: 0.5px solid rgb(66, 89, 111);
+}
+
+button {
+  cursor: pointer;
+}
+
+div.footer-btn {
+  margin-left: 0.4rem;
+  border-radius: 0;
+  display: inline-block;
+  background-color: rgb(44, 134, 220);
+  padding: 0.1rem 0.3rem;
+  font-size: 0.68rem;
+}
+
+.links-lists hr {
+  width: 25%;
+  margin-left: 0;
+  margin-bottom: 1.6rem;
 }
 
 .difference-footer {
@@ -46,10 +60,134 @@ a {
   padding-bottom: 6rem;
 }
 
+.difference-section-header {
+  padding-top: 3.5rem;
+  padding-bottom: 2.7rem;
+}
+
+.difference-section-subheaders {
+  padding: 0.7rem;
+}
+
+.bordered {
+  border-radius: 3px;
+}
+
+.footer-link-containers h6 {
+  padding-top: 2rem;
+  color: white;
+  font-family: 'ColfaxWebMedium';
+  letter-spacing: 1.2px;
+  font-size: 0.65rem;
+}
+
+.col {
+  flex: 1;
+}
+
+.small-icons {
+  width: 1rem;
+  padding-right: 0.7rem;
+  cursor: pointer;
+}
+
+.sub-footer-legal {
+  text-align: right;
+}
+
+.sub-footer-legal a {
+  padding-left: 2rem;
+  color: rgb(213, 218, 223);
+}
+
+.sub-footer {
+  padding: 0 2.7rem;
+  margin-top: 2.4rem;
+}
+
+.dropdown dd,
+.dropdown dt,
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+  padding-right: 0.5rem;
+  padding-top: 1rem;
+}
+
+.email dd,
+.email dt,
+.email ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+}
+
+.dropdown dt a {
+  background: url("images/caret-south-blue.png") no-repeat right center;
+  display: block;
+  padding-right: 20px;
+  border: 1px solid lightgray;
+  width: 18rem;
+  height: 2.2rem;
+  float: right;
+}
+
+.email dt a {
+  display: block;
+  border: 1px solid lightgray;
+  width: 13rem;
+  height: 2.2rem;
+  float: left;
+}
+
+.email dt a span {
+  cursor: pointer;
+  display: block;
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  color: rgb(169, 181, 191);
+}
+
+.dropdown dt a span {
+  cursor: pointer;
+  display: block;
+  padding-top: 0.6rem;
+  padding-left: 0.5rem;
+  color: rgb(44, 70, 95);
+}
+
+.links-lists {
+  list-style-type: none;
+  padding: 0;
+}
+
+#plans-pricing-button {
+  background-color: white;
+  width: 14rem;
+  height: 3.5rem;
+  color: #4da6e5;
+  font-size: 1rem;
+}
+
+#subscribe-button {
+  width: 6rem;
+  height: 3rem;
+  border: solid 1px rgba(82, 158, 226, 1);
+  color: #4da6e5;
+  font-size: 0.8rem;
+}
+
 #confidence-section-pricing-cta {
   color: white;
   margin-left: 9rem;
   margin-top: 9.5rem;
+}
+
+#difference-section {
+  padding-left: 9.5rem;
+  padding-right: 9.5rem;
+  text-align: center;
 }
 
 #confidence-section-pricing-cta p {
@@ -65,12 +203,6 @@ a {
   margin-left: 5rem;
   margin-top: 5rem;
   padding: 2rem;
-}
-
-#confidence-section-blog-links a {
-  line-height: 1.8;
-  padding-bottom: 1rem;
-  display: block;
 }
 
 #confidence-section-blog-links h2 {
@@ -90,24 +222,66 @@ a {
   margin-top: 13rem;
 }
 
-.bordered {
-  border-radius: 3px;
+#footer-links {
+  padding-left: 2.5rem;
+  padding-top: 0.5rem;
+  background-color: rgb(44, 70, 95);
+  height: 26.7rem;
 }
 
-#plans-pricing-button {
-  background-color: white;
-  width: 14rem;
-  height: 3.5rem;
-  color: #4da6e5;
-  font-size: 1rem;
+#footer-lower-section {
+  background-color: rgb(44, 70, 95);
+  height: 6.8rem;
+  padding: 0;
 }
 
-#subscribe-button {
-  width: 6rem;
-  height: 3rem;
-  border: solid 1px rgba(82, 158, 226, 1);
+#bottom-footer {
+  background-color: rgb(243, 249, 253);
+}
+
+#bottom-footer img {
+  width: 6.5rem;
+  margin: 2.3rem 0 1.5rem auto;
+}
+
+#bottom-footer h2 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(44, 70, 95);
+}
+
+#sign-up {
+  height: 2.3rem;
+  width: 5rem;
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2.2rem;
+  background-color: rgb(80, 157, 226);
+  color: white;
+}
+
+#confidence-section-blog-links a {
+  line-height: 1.8;
+  padding-bottom: 1rem;
+  display: block;
+}
+
+#footer-links li {
+  line-height: 1.8;
+  padding-bottom: 1rem;
+  color: rgb(213, 218, 223);
+}
+
+#privacy-footer {
+  text-align: center;
+  margin: 2.2rem auto 0.7rem auto;
+}
+
+#privacy-footer a {
   color: #4da6e5;
-  font-size: 0.8rem;
 }
 
 @font-face {
