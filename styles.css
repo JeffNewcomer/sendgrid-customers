@@ -1,5 +1,53 @@
-div, section {
+/* div, section {
   border: 0.5px solid red;
+} */
+
+#ask-our-customers-section h1 {
+  margin-top: 6.3rem;
+  margin-bottom: 4.4rem;
+  text-align: center;
+}
+
+.view-more-cust-text {
+  font-size: 1.05rem;
+  padding-top: 0.5rem;
+  padding-bottom: 6.5rem;
+  text-align: center;
+}
+
+.using-sendgrid-for-text {
+  font-size: 1rem;
+  padding-top: 0.7rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#right-dropdown {
+  float: left;
+}
+
+#left-dropdown {
+  float: right;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* remove default arrow */
+  background-image: url("images/caret-south-blue.png");
+  background-repeat: no-repeat;
+  background-position: 13.75rem 1.1rem;
+  width: 15rem;
+  height: 2.5rem;
+  background-size: 0.65rem;
+  color: rgb(80, 157, 226);
+  padding-left: 0.5rem;
+  border-radius: 1px;
+  font-size: 0.8rem;
+  border: 1px solid rgb(80, 157, 226);
+  background-color: white;
 }
 
 body {
@@ -61,7 +109,7 @@ div.footer-btn {
   font-weight: bolder;
 }
 
-.did-you-know-card-1 {
+.float-right {
   float: right;
 }
 
@@ -83,7 +131,7 @@ div.footer-btn {
   border: 0.5px solid lightgray;
   width: 13.5rem;
   height: 10rem;
-  box-shadow: -1px 7px 22px -5px rgba(173, 173, 173, 1);
+  box-shadow: 0 2px 2px 1px rgba(240, 237, 240, 1);
   margin: 1.75rem 0.5rem;
   position: relative;
 }
@@ -103,7 +151,7 @@ div.footer-btn {
 }
 
 #logo-container {
-  margin: 0 auto;
+  margin: 0.5rem auto 0 auto;
 }
 
 .links-lists hr {
