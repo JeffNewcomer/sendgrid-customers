@@ -190,7 +190,7 @@ div.footer-btn {
   background-size: 0.65rem;
   color: rgb(80, 157, 226);
   padding-left: 0.5rem;
-  border-radius: 1px;
+  border-radius: 2px;
   font-size: 0.8rem;
   border: 1px solid rgb(80, 157, 226);
   background-color: white;
@@ -214,7 +214,7 @@ div.footer-btn {
   background-size: 0.65rem;
   color: rgb(44, 70, 95);
   padding-left: 0.5rem;
-  border-radius: 1px;
+  border-radius: 2px;
   font-size: 0.8rem;
   border: 0.5px solid lightgray;
   background-color: white;
@@ -233,6 +233,8 @@ div.footer-btn {
   border-radius: 1px;
   font-size: 0.8rem;
   border: 0.5px solid lightgray;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
   background-color: white;
   border-collapse: collapse;
   cursor: pointer;
@@ -387,7 +389,7 @@ div.footer-btn {
   color: white;
   font-size: 0.9rem;
   float: left;
-  border: 0.5px solid lightgray;
+  border: none;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   border-collapse: collapse;
