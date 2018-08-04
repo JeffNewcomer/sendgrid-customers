@@ -1,3 +1,3 @@
 # sendgrid-customers
 SendGrid website re-creation.
-<img src="https://imgur.com/QRquOmE">
+<a href="https://imgur.com/QRquOmE"><img src="https://i.imgur.com/QRquOmE.gif" title="source: imgur.com" /></a>
