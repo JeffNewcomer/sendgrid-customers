@@ -26,6 +26,21 @@ div, section {
   overflow: hidden;
 }
 
+.case-studies-image-container p {
+  color: white;
+  margin: 18rem 2rem 0 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  position: absolute;
+}
+
+img.case-studies-logo {
+  width: 4rem;
+  margin: 15rem 2rem 0 2rem;
+  position: absolute;
+
+}
+
 .case-studies-text-container {
   width: 26rem;
   height: 30rem;
@@ -45,11 +60,6 @@ div, section {
   font-size: 1rem;
   line-height: 1.85;
 }
-
-/* a.case-studies-text-bottom {
-  font-size: 1rem;
-  line-height: 1.85;
-} */
 
 .color-bg {
   width: auto;
