@@ -1,7 +1,3 @@
-/* div, section {
-  border: 0.5px solid red;
-} */
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -20,34 +16,104 @@ h2 {
   font-family: 'ColfaxWebMedium';
 }
 
-p {
-  line-height: 1.5;
-}
-
 a {
   color: #4da6e5;
   cursor: pointer;
   text-decoration: none;
 }
 
+p {
+  line-height: 1.5;
+}
+
 button {
   cursor: pointer;
 }
 
-div.footer-btn {
-  margin-left: 0.4rem;
-  border-radius: 0;
-  display: inline-block;
-  background-color: rgb(44, 134, 220);
-  padding: 0.1rem 0.3rem;
-  font-size: 0.68rem;
+.case-studies-image-container.text-right-image-left {
+  margin: 7rem 1.5rem 0 auto;
 }
 
-.did-you-know-card img {
-  width: 20rem;
+.case-studies-image-container.text-left-image-right {
+  margin: 7rem auto 0 1.5rem;
+  color: #0f67d5;
+}
+
+.case-studies-logo {
+  width: 4rem;
+  margin: 15rem 2rem 0 2rem;
+  position: absolute;
+}
+
+.case-studies-text-container {
+  width: 26rem;
+  height: 30rem;
+}
+
+.case-studies-text-container.text-padding-gusto {
+  padding-top: 2rem;
+}
+
+.case-studies-text-container.text-left-image-right {
+  margin: 5rem 1.5rem 0 auto;
+}
+
+.case-studies-text-container.text-left-image-right.couchsurfing-text-margins {
+  margin: 3rem 1.5rem 8rem auto;
+}
+
+.case-studies-text-container.text-right-image-left {
+  margin: 5rem auto 0 1.5rem;
+}
+
+.case-studies-text-container.text-right-image-left.meetup-text-margins {
+  margin: 6.5rem auto 0 1.5rem;
+}
+
+.case-studies-text-top {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.case-studies-text-bottom {
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.case-studies-image-container {
+  width: 29rem;
+  height: 25rem;
+  background-position: top;
+  background-repeat: no-repeat;
   position: relative;
-  margin-left: 9rem;
-  margin-top: 7rem;
+  overflow: hidden;
+}
+
+.color-bg {
+  width: auto;
+  height: 58%;
+  position: absolute;
+  bottom: 0;
+}
+
+.meetup {
+  background-image: url('images/meetup Image.png');
+  background-size: 100% 57%;
+}
+
+.ebay {
+  background-image: url('images/image-ebay-customers.jpg');
+  background-size: 100% 59%;
+}
+
+.gusto {
+  background-image: url('images/gusto-office-e1520473893608-940x374.jpg');
+  background-size: 100% 58%;
+}
+
+.couchsurfing {
+  background-image: url('images/image-couchsurfing-customers.jpg');
+  background-size: 100% 59%;
 }
 
 .large-numbers {
@@ -103,13 +169,6 @@ div.footer-btn {
   cursor: pointer;
 }
 
-.links-lists hr {
-  width: 25%;
-  margin-left: 0;
-  margin-bottom: 1.6rem;
-  border: 0.5px solid rgb(66, 89, 111);
-}
-
 .difference-footer {
   padding-top: 2.5rem;
   padding-bottom: 6rem;
@@ -128,14 +187,6 @@ div.footer-btn {
   border-radius: 3px;
 }
 
-.footer-link-containers h6 {
-  padding-top: 2rem;
-  color: white;
-  font-family: 'ColfaxWebMedium';
-  letter-spacing: 1.2px;
-  font-size: 0.65rem;
-}
-
 .col {
   flex: 1;
 }
@@ -148,11 +199,6 @@ div.footer-btn {
 
 .sub-footer-legal {
   text-align: right;
-}
-
-.sub-footer-legal a {
-  padding-left: 2rem;
-  color: rgb(213, 218, 223);
 }
 
 .sub-footer {
@@ -178,64 +224,8 @@ div.footer-btn {
   float: right;
 }
 
-.ask-customers-dropdowns select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-image: url("images/caret-south-blue.png");
-  background-repeat: no-repeat;
-  background-position: 13.75rem 1.1rem;
-  width: 15rem;
-  height: 2.5rem;
-  background-size: 0.65rem;
-  color: rgb(80, 157, 226);
-  padding-left: 0.5rem;
-  border-radius: 1px;
-  font-size: 0.8rem;
-  border: 1px solid rgb(80, 157, 226);
-  background-color: white;
-  cursor: pointer;
-}
-
 .footer-input-container {
   margin-top: 2rem;
-}
-
-.newsletter-subscribe-dropdown select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-image: url("images/caret-south-blue.png");
-  filter: grayscale(100%);
-  background-repeat: no-repeat;
-  background-position: 17.75rem 1.1rem;
-  width: 19rem;
-  height: 2.3rem;
-  background-size: 0.65rem;
-  color: rgb(44, 70, 95);
-  padding-left: 0.5rem;
-  border-radius: 1px;
-  font-size: 0.8rem;
-  border: 0.5px solid lightgray;
-  background-color: white;
-  cursor: pointer;
-}
-
-.newsletter-email-input select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 14rem;
-  height: 2.3rem;
-  background-size: 0.65rem;
-  color: rgb(169, 181, 191);
-  padding-left: 0.5rem;
-  border-radius: 1px;
-  font-size: 0.8rem;
-  border: 0.5px solid lightgray;
-  background-color: white;
-  border-collapse: collapse;
-  cursor: pointer;
 }
 
 .view-more-cust-text {
@@ -252,6 +242,128 @@ div.footer-btn {
 
 .center-text {
   text-align: center;
+}
+
+.case-studies-text-container hr {
+  width: 7%;
+  margin-left: 0;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border: 1.5px solid rgb(165, 207, 240);
+}
+
+.case-studies-image-container p {
+  color: white;
+  margin: 18rem 2rem 0 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  position: absolute;
+}
+
+.case-studies-text-top span {
+  font-family: 'ColfaxWebMedium';
+}
+
+.did-you-know-card img {
+  width: 20rem;
+  position: relative;
+  margin-left: 9rem;
+  margin-top: 7rem;
+}
+
+.sub-footer-legal a {
+  padding-left: 2rem;
+  color: rgb(213, 218, 223);
+}
+
+.footer-link-containers h6 {
+  padding-top: 2rem;
+  color: white;
+  font-family: 'ColfaxWebMedium';
+  letter-spacing: 1.2px;
+  font-size: 0.65rem;
+}
+
+.links-lists hr {
+  width: 25%;
+  margin-left: 0;
+  margin-bottom: 1.6rem;
+  border: 0.5px solid rgb(66, 89, 111);
+}
+
+.ask-customers-dropdowns select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("images/caret-south-blue.png");
+  background-repeat: no-repeat;
+  background-position: 13.75rem 1.1rem;
+  width: 15rem;
+  height: 2.5rem;
+  background-size: 0.65rem;
+  color: rgb(80, 157, 226);
+  padding-left: 0.5rem;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  border: 1px solid rgb(80, 157, 226);
+  background-color: white;
+  cursor: pointer;
+}
+
+.newsletter-email-input select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 14rem;
+  height: 2.3rem;
+  background-size: 0.65rem;
+  color: rgb(169, 181, 191);
+  padding-left: 0.5rem;
+  border-radius: 1px;
+  font-size: 0.8rem;
+  border: 0.5px solid lightgray;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: white;
+  border-collapse: collapse;
+  cursor: pointer;
+}
+
+.newsletter-subscribe-dropdown select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("images/caret-south-blue.png");
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-position: 17.75rem 1.1rem;
+  width: 19rem;
+  height: 2.3rem;
+  background-size: 0.65rem;
+  color: rgb(44, 70, 95);
+  padding-left: 0.5rem;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  border: 0.5px solid lightgray;
+  background-color: white;
+  cursor: pointer;
+}
+
+img#couchsurfing-logo.case-studies-logo {
+  width: 4.5rem;
+}
+
+div.footer-btn {
+  margin-left: 0.4rem;
+  border-radius: 0;
+  display: inline-block;
+  background-color: rgb(44, 134, 220);
+  padding: 0.1rem 0.3rem;
+  font-size: 0.68rem;
+}
+
+#case-studies-section {
+  background-color: rgb(243, 249, 253);
 }
 
 #plans-pricing-button {
@@ -387,7 +499,7 @@ div.footer-btn {
   color: white;
   font-size: 0.9rem;
   float: left;
-  border: 0.5px solid lightgray;
+  border: none;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
   border-collapse: collapse;
