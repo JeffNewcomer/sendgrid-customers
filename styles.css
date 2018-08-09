@@ -6,27 +6,55 @@ div, section {
   background-color: rgb(243, 249, 253);
 }
 
-.case-studies-text-container hr {
-  width: 7%;
-  margin-left: 0;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  border: 1.5px solid rgb(165, 207, 240);
-}
-
 .case-studies-image-container {
   width: 29rem;
   height: 25rem;
-  background-image: url('images/meetup Image.png');
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100% 57%;
   position: relative;
-  margin: 7rem 1.5rem 0 auto;
   overflow: hidden;
 }
 
+.color-bg {
+  width: auto;
+  height: 58%;
+  position: absolute;
+  bottom: 0;
+}
+
+.meetup {
+  background-image: url('images/meetup Image.png');
+  background-size: 100% 57%;
+}
+
+.ebay {
+  background-image: url('images/image-ebay-customers.jpg');
+  background-size: 90% 59%;
+}
+
+.gusto {
+  background-image: url('images/gusto-office-e1520473893608-940x374.jpg');
+  background-size: 100% 58%;
+}
+
+.case-studies-image-container.text-right-image-left {
+  margin: 7rem 1.5rem 0 auto;
+}
+
+.case-studies-image-container.text-left-image-right {
+  margin: 7rem auto 0 1.5rem;
+  color: #0f67d5;
+}
+
 .case-studies-image-container p {
+  color: white;
+  margin: 18rem 2rem 0 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  position: absolute;
+}
+
+.case-studies-image-container-2 p {
   color: white;
   margin: 18rem 2rem 0 2rem;
   font-size: 1rem;
@@ -38,13 +66,27 @@ img.case-studies-logo {
   width: 4rem;
   margin: 15rem 2rem 0 2rem;
   position: absolute;
-
 }
 
 .case-studies-text-container {
   width: 26rem;
   height: 30rem;
+}
+
+.case-studies-text-container.text-left-image-right {
+  margin: 5rem 1.5rem 0 auto;
+}
+
+.case-studies-text-container.text-right-image-left {
   margin: 5rem auto 0 1.5rem;
+}
+
+.case-studies-text-container hr {
+  width: 7%;
+  margin-left: 0;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border: 1.5px solid rgb(165, 207, 240);
 }
 
 .case-studies-text-top {
@@ -59,13 +101,6 @@ img.case-studies-logo {
 .case-studies-text-bottom {
   font-size: 1rem;
   line-height: 1.85;
-}
-
-.color-bg {
-  width: auto;
-  height: 58%;
-  position: absolute;
-  bottom: 0;
 }
 
 body {
