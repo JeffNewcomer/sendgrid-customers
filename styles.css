@@ -1,9 +1,83 @@
-div, section {
-  border: 0.5px solid red;
+body {
+  font-family: 'ColfaxRegular';
+  font-size: 13.5px;
+  color: rgb(0, 51, 85);
 }
 
-#case-studies-section {
-  background-color: rgb(243, 249, 253);
+h1 {
+  font-size: 1.85rem;
+  font-family: 'ColfaxWebMedium';
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  font-family: 'ColfaxWebMedium';
+}
+
+a {
+  color: #4da6e5;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+}
+
+.case-studies-image-container.text-right-image-left {
+  margin: 7rem 1.5rem 0 auto;
+}
+
+.case-studies-image-container.text-left-image-right {
+  margin: 7rem auto 0 1.5rem;
+  color: #0f67d5;
+}
+
+.case-studies-logo {
+  width: 4rem;
+  margin: 15rem 2rem 0 2rem;
+  position: absolute;
+}
+
+.case-studies-text-container {
+  width: 26rem;
+  height: 30rem;
+}
+
+.case-studies-text-container.text-padding-gusto {
+  padding-top: 2rem;
+}
+
+.case-studies-text-container.text-left-image-right {
+  margin: 5rem 1.5rem 0 auto;
+}
+
+.case-studies-text-container.text-left-image-right.couchsurfing-text-margins {
+  margin: 3rem 1.5rem 8rem auto;
+}
+
+.case-studies-text-container.text-right-image-left {
+  margin: 5rem auto 0 1.5rem;
+}
+
+.case-studies-text-container.text-right-image-left.meetup-text-margins {
+  margin: 6.5rem auto 0 1.5rem;
+}
+
+.case-studies-text-top {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.case-studies-text-bottom {
+  font-size: 1rem;
+  line-height: 1.85;
 }
 
 .case-studies-image-container {
@@ -29,7 +103,7 @@ div, section {
 
 .ebay {
   background-image: url('images/image-ebay-customers.jpg');
-  background-size: 90% 59%;
+  background-size: 100% 59%;
 }
 
 .gusto {
@@ -37,118 +111,9 @@ div, section {
   background-size: 100% 58%;
 }
 
-.case-studies-image-container.text-right-image-left {
-  margin: 7rem 1.5rem 0 auto;
-}
-
-.case-studies-image-container.text-left-image-right {
-  margin: 7rem auto 0 1.5rem;
-  color: #0f67d5;
-}
-
-.case-studies-image-container p {
-  color: white;
-  margin: 18rem 2rem 0 2rem;
-  font-size: 1rem;
-  line-height: 1;
-  position: absolute;
-}
-
-.case-studies-image-container-2 p {
-  color: white;
-  margin: 18rem 2rem 0 2rem;
-  font-size: 1rem;
-  line-height: 1;
-  position: absolute;
-}
-
-img.case-studies-logo {
-  width: 4rem;
-  margin: 15rem 2rem 0 2rem;
-  position: absolute;
-}
-
-.case-studies-text-container {
-  width: 26rem;
-  height: 30rem;
-}
-
-.case-studies-text-container.text-left-image-right {
-  margin: 5rem 1.5rem 0 auto;
-}
-
-.case-studies-text-container.text-right-image-left {
-  margin: 5rem auto 0 1.5rem;
-}
-
-.case-studies-text-container hr {
-  width: 7%;
-  margin-left: 0;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  border: 1.5px solid rgb(165, 207, 240);
-}
-
-.case-studies-text-top {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.case-studies-text-top span {
-  font-family: 'ColfaxWebMedium';
-}
-
-.case-studies-text-bottom {
-  font-size: 1rem;
-  line-height: 1.85;
-}
-
-body {
-  font-family: 'ColfaxRegular';
-  font-size: 13.5px;
-  color: rgb(0, 51, 85);
-}
-
-h1 {
-  font-size: 1.85rem;
-  font-family: 'ColfaxWebMedium';
-  padding: 0;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1rem;
-  font-family: 'ColfaxWebMedium';
-}
-
-p {
-  line-height: 1.5;
-}
-
-a {
-  color: #4da6e5;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-div.footer-btn {
-  margin-left: 0.4rem;
-  border-radius: 0;
-  display: inline-block;
-  background-color: rgb(44, 134, 220);
-  padding: 0.1rem 0.3rem;
-  font-size: 0.68rem;
-}
-
-.did-you-know-card img {
-  width: 20rem;
-  position: relative;
-  margin-left: 9rem;
-  margin-top: 7rem;
+.couchsurfing {
+  background-image: url('images/image-couchsurfing-customers.jpg');
+  background-size: 100% 59%;
 }
 
 .large-numbers {
@@ -204,13 +169,6 @@ div.footer-btn {
   cursor: pointer;
 }
 
-.links-lists hr {
-  width: 25%;
-  margin-left: 0;
-  margin-bottom: 1.6rem;
-  border: 0.5px solid rgb(66, 89, 111);
-}
-
 .difference-footer {
   padding-top: 2.5rem;
   padding-bottom: 6rem;
@@ -229,14 +187,6 @@ div.footer-btn {
   border-radius: 3px;
 }
 
-.footer-link-containers h6 {
-  padding-top: 2rem;
-  color: white;
-  font-family: 'ColfaxWebMedium';
-  letter-spacing: 1.2px;
-  font-size: 0.65rem;
-}
-
 .col {
   flex: 1;
 }
@@ -249,11 +199,6 @@ div.footer-btn {
 
 .sub-footer-legal {
   text-align: right;
-}
-
-.sub-footer-legal a {
-  padding-left: 2rem;
-  color: rgb(213, 218, 223);
 }
 
 .sub-footer {
@@ -279,6 +224,73 @@ div.footer-btn {
   float: right;
 }
 
+.footer-input-container {
+  margin-top: 2rem;
+}
+
+.view-more-cust-text {
+  font-size: 1.05rem;
+  padding-top: 0.5rem;
+  padding-bottom: 6.5rem;
+  text-align: center;
+}
+
+.using-sendgrid-for-text {
+  font-size: 1rem;
+  padding-top: 0.7rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.case-studies-text-container hr {
+  width: 7%;
+  margin-left: 0;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border: 1.5px solid rgb(165, 207, 240);
+}
+
+.case-studies-image-container p {
+  color: white;
+  margin: 18rem 2rem 0 2rem;
+  font-size: 1rem;
+  line-height: 1;
+  position: absolute;
+}
+
+.case-studies-text-top span {
+  font-family: 'ColfaxWebMedium';
+}
+
+.did-you-know-card img {
+  width: 20rem;
+  position: relative;
+  margin-left: 9rem;
+  margin-top: 7rem;
+}
+
+.sub-footer-legal a {
+  padding-left: 2rem;
+  color: rgb(213, 218, 223);
+}
+
+.footer-link-containers h6 {
+  padding-top: 2rem;
+  color: white;
+  font-family: 'ColfaxWebMedium';
+  letter-spacing: 1.2px;
+  font-size: 0.65rem;
+}
+
+.links-lists hr {
+  width: 25%;
+  margin-left: 0;
+  margin-bottom: 1.6rem;
+  border: 0.5px solid rgb(66, 89, 111);
+}
+
 .ask-customers-dropdowns select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -294,30 +306,6 @@ div.footer-btn {
   border-radius: 2px;
   font-size: 0.8rem;
   border: 1px solid rgb(80, 157, 226);
-  background-color: white;
-  cursor: pointer;
-}
-
-.footer-input-container {
-  margin-top: 2rem;
-}
-
-.newsletter-subscribe-dropdown select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-image: url("images/caret-south-blue.png");
-  filter: grayscale(100%);
-  background-repeat: no-repeat;
-  background-position: 17.75rem 1.1rem;
-  width: 19rem;
-  height: 2.3rem;
-  background-size: 0.65rem;
-  color: rgb(44, 70, 95);
-  padding-left: 0.5rem;
-  border-radius: 2px;
-  font-size: 0.8rem;
-  border: 0.5px solid lightgray;
   background-color: white;
   cursor: pointer;
 }
@@ -341,20 +329,41 @@ div.footer-btn {
   cursor: pointer;
 }
 
-.view-more-cust-text {
-  font-size: 1.05rem;
-  padding-top: 0.5rem;
-  padding-bottom: 6.5rem;
-  text-align: center;
+.newsletter-subscribe-dropdown select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("images/caret-south-blue.png");
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-position: 17.75rem 1.1rem;
+  width: 19rem;
+  height: 2.3rem;
+  background-size: 0.65rem;
+  color: rgb(44, 70, 95);
+  padding-left: 0.5rem;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  border: 0.5px solid lightgray;
+  background-color: white;
+  cursor: pointer;
 }
 
-.using-sendgrid-for-text {
-  font-size: 1rem;
-  padding-top: 0.7rem;
+img#couchsurfing-logo.case-studies-logo {
+  width: 4.5rem;
 }
 
-.center-text {
-  text-align: center;
+div.footer-btn {
+  margin-left: 0.4rem;
+  border-radius: 0;
+  display: inline-block;
+  background-color: rgb(44, 134, 220);
+  padding: 0.1rem 0.3rem;
+  font-size: 0.68rem;
+}
+
+#case-studies-section {
+  background-color: rgb(243, 249, 253);
 }
 
 #plans-pricing-button {
