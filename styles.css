@@ -492,6 +492,22 @@ div.footer-btn {
 
 #companies-big-and-small {
   display: block;
+  background-image: url("images/hero-background.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  line-height: 1.5;
+}
+
+#companies-big-and-small h4 {
+  line-height: 2;
+  padding: 0.4rem;
+}
+
+#companies-big-text-top {
+  text-align: center;
+  margin: 4rem 25rem;
+  color: white;
 }
 
 #company-logo-container {
