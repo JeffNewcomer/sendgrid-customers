@@ -1,3 +1,9 @@
+div,
+section {
+  border: red solid 1px;
+}
+
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -482,6 +488,18 @@ div.footer-btn {
 
 #privacy-footer a {
   color: #4da6e5;
+}
+
+#companies-big-and-small {
+  display: block;
+}
+
+#company-logo-container {
+  margin: 0.5rem auto 0 auto;
+}
+
+#company-statistics-container {
+  margin: 0.5rem auto 0 auto;
 }
 
 #logo-containers {
