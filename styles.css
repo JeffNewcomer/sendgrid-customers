@@ -3,6 +3,34 @@ section {
   border: red solid 1px;
 }
 
+.company-logo-border {
+  border-radius: 3rem;
+  height: 4rem;
+  box-shadow: 0 2px 2px 1px rgba(240, 237, 240, 1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.company-logo {
+  max-width: 50%;
+  cursor: pointer;
+}
+
+#companies-big-and-small {
+  display: block;
+  background-image: url("images/hero-background.svg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: auto 30rem;
+  line-height: 1.5;
+  height: 50rem;
+}
+
+
+
 
 body {
   font-family: 'ColfaxRegular';
@@ -490,14 +518,7 @@ div.footer-btn {
   color: #4da6e5;
 }
 
-#companies-big-and-small {
-  display: block;
-  background-image: url("images/hero-background.svg");
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  line-height: 1.5;
-}
+
 
 #companies-big-and-small h4 {
   line-height: 2;
