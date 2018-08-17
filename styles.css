@@ -1,35 +1,72 @@
-div,
+/* div,
 section {
   border: red solid 1px;
-}
+} */
 
 .company-logo-border {
   border-radius: 3rem;
-  height: 4rem;
+  height: 3.5rem;
   box-shadow: 0 2px 2px 1px rgba(240, 237, 240, 1);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
-.company-logo {
-  max-width: 50%;
-  cursor: pointer;
+.company-logo-border.uber-mint-yelp {
+  width: 9rem;
 }
+
+.company-logo-border.airbnb-spotify {
+  width: 9.25rem;
+}
+
+.company-logo-border.booking-ziprecruiter {
+  width: 10.25rem;
+}
+
 
 #companies-big-and-small {
-  display: block;
   background-image: url("images/hero-background.svg");
-  background-position: left top;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: auto 30rem;
+  background-size: 110rem;
   line-height: 1.5;
-  height: 50rem;
+  /* height: 45rem; */
+  text-align: center;
 }
 
+#companies-big-and-small h4 {
+  line-height: 2;
+}
 
+#companies-big-text-top {
+  margin: 3rem 25rem 3rem 25rem;
+  color: white;
+}
+
+#company-logo-container {
+  margin: 0.5rem auto 0 auto;
+}
+
+.uber-zip-logo-column {
+  margin-top: 2rem;
+}
+
+.yelp-mint-logo-column {
+  margin-top: 3rem;
+}
+
+#company-statistics-container {
+  margin: 0.5rem auto 0 auto;
+}
+
+#logo-containers {
+  margin: 0.5rem auto 0 auto;
+}
 
 
 body {
@@ -198,7 +235,7 @@ button {
   cursor: pointer;
 }
 
-.customer-section-logo {
+.customer-logo {
   max-width: 60%;
   cursor: pointer;
 }
@@ -520,28 +557,8 @@ div.footer-btn {
 
 
 
-#companies-big-and-small h4 {
-  line-height: 2;
-  padding: 0.4rem;
-}
 
-#companies-big-text-top {
-  text-align: center;
-  margin: 4rem 25rem;
-  color: white;
-}
 
-#company-logo-container {
-  margin: 0.5rem auto 0 auto;
-}
-
-#company-statistics-container {
-  margin: 0.5rem auto 0 auto;
-}
-
-#logo-containers {
-  margin: 0.5rem auto 0 auto;
-}
 
 #difference-section img {
   width: 90%;
