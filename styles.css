@@ -30,6 +30,39 @@ button {
   cursor: pointer;
 }
 
+.uber-zip-logo-column {
+  margin-top: 2rem;
+}
+
+.yelp-mint-logo-column {
+  margin-top: 3rem;
+}
+
+.company-logo-border {
+  border-radius: 4rem;
+  height: 5rem;
+  box-shadow: 0 13px 13px -3px rgba(207, 217, 227, 1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.company-logo-border.uber-mint-yelp {
+  width: 8rem;
+}
+
+.company-logo-border.airbnb-spotify {
+  width: 9.5rem;
+}
+
+.company-logo-border.booking-ziprecruiter {
+  width: 10.5rem;
+}
+
 .case-studies-image-container.text-right-image-left {
   margin: 7rem 1.5rem 0 auto;
 }
@@ -164,7 +197,7 @@ button {
   cursor: pointer;
 }
 
-.customer-section-logo {
+.customer-logo {
   max-width: 60%;
   cursor: pointer;
 }
@@ -362,6 +395,55 @@ div.footer-btn {
   font-size: 0.68rem;
 }
 
+#companies-big-text-top {
+  margin: 4rem auto 0 auto;
+  color: white;
+}
+
+#company-logo-container {
+  margin: 0 auto 3rem auto;
+}
+
+#companies-big-and-small {
+  background-image: url("images/hero-background.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto 500px;
+  line-height: 1.5;
+  height: 53rem;
+  text-align: center;
+}
+
+#company-statistics-container {
+  margin: 0 1rem 0 1rem;
+  width: 100%;
+}
+
+#companies-big-text-top h1 {
+  font-size: 2.5rem;
+  font-family: 'ColfaxWebMedium';
+}
+
+#companies-big-text-top h2 {
+  line-height: 2;
+  margin: 2rem;
+  font-family: 'ColfaxRegular';
+}
+
+#company-statistics-container h2 {
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+
+#company-statistics-container p {
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+#logo-containers {
+  margin: 0.5rem auto 0 auto;
+}
+
 #case-studies-section {
   background-color: rgb(243, 249, 253);
 }
@@ -372,6 +454,7 @@ div.footer-btn {
   height: 3.5rem;
   color: #4da6e5;
   font-size: 1rem;
+  border: none;
 }
 
 #subscribe-button {
@@ -379,7 +462,7 @@ div.footer-btn {
   height: 3rem;
   border: solid 1px rgba(82, 158, 226, 1);
   color: #4da6e5;
-  font-size: 0.8rem;
+  background-color: white;
 }
 
 #confidence-section-pricing-cta {
@@ -482,10 +565,6 @@ div.footer-btn {
 
 #privacy-footer a {
   color: #4da6e5;
-}
-
-#logo-containers {
-  margin: 0.5rem auto 0 auto;
 }
 
 #difference-section img {
