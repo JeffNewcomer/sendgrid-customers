@@ -1,55 +1,55 @@
-div,
-section {
-  border: red solid 1px;
-}
-
 .company-logo-border {
-  border-radius: 3rem;
-  height: 3.5rem;
+  border-radius: 4rem;
+  height: 5rem;
   box-shadow: 0 2px 2px 1px rgba(240, 237, 240, 1);
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: white;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .company-logo-border.uber-mint-yelp {
-  width: 9rem;
+  width: 8rem;
 }
 
 .company-logo-border.airbnb-spotify {
-  width: 9.25rem;
+  width: 9.5rem;
 }
 
 .company-logo-border.booking-ziprecruiter {
-  width: 10.25rem;
+  width: 10.5rem;
 }
-
 
 #companies-big-and-small {
   background-image: url("images/hero-background.svg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto 500px;
   line-height: 1.5;
-  height: 35rem;
+  height: 50rem;
   text-align: center;
 }
 
-#companies-big-and-small h4 {
+#companies-big-text-top h1 {
+  font-size: 2.5rem;
+  font-family: 'ColfaxWebMedium';
+}
+
+#companies-big-text-top h2 {
   line-height: 2;
+  margin: 2rem;
 }
 
 #companies-big-text-top {
-  margin: 4rem auto 1rem auto;
+  margin: 4rem auto 0 auto;
   color: white;
 }
 
 #company-logo-container {
-  margin: 0.5rem auto 3rem auto;
+  margin: 0 auto 3rem auto;
 }
 
 .uber-zip-logo-column {
@@ -61,14 +61,18 @@ section {
 }
 
 #company-statistics-container {
-  margin: 0 5rem 0 5rem;
+  margin: 0 1rem 0 1rem;
   width: 100%;
+}
+
+#company-statistics-container h2 {
+  font-size: 1.25rem;
+  margin: 1rem;
 }
 
 #logo-containers {
   margin: 0.5rem auto 0 auto;
 }
-
 
 body {
   font-family: 'ColfaxRegular';
