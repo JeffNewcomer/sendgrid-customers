@@ -1,3 +1,8 @@
+/* div,
+section {
+  border: red solid 1px;
+} */
+
 .company-logo-border {
   border-radius: 4rem;
   height: 5rem;
@@ -68,6 +73,11 @@
 #company-statistics-container h2 {
   font-size: 1.25rem;
   margin: 1rem;
+}
+
+#company-statistics-container p {
+  font-size: 1.1rem;
+  line-height: 1.75;
 }
 
 #logo-containers {
@@ -448,6 +458,7 @@ div.footer-btn {
   height: 3.5rem;
   color: #4da6e5;
   font-size: 1rem;
+  border: none;
 }
 
 #subscribe-button {
@@ -455,7 +466,7 @@ div.footer-btn {
   height: 3rem;
   border: solid 1px rgba(82, 158, 226, 1);
   color: #4da6e5;
-  font-size: 0.8rem;
+  background-color: white;
 }
 
 #confidence-section-pricing-cta {
