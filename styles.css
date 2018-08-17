@@ -1,7 +1,7 @@
-/* div,
+div,
 section {
   border: red solid 1px;
-} */
+}
 
 .company-logo-border {
   border-radius: 3rem;
@@ -33,9 +33,9 @@ section {
   background-image: url("images/hero-background.svg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 110rem;
+  background-size: 100%;
   line-height: 1.5;
-  /* height: 45rem; */
+  height: 35rem;
   text-align: center;
 }
 
@@ -44,12 +44,12 @@ section {
 }
 
 #companies-big-text-top {
-  margin: 3rem 25rem 3rem 25rem;
+  margin: 4rem auto 1rem auto;
   color: white;
 }
 
 #company-logo-container {
-  margin: 0.5rem auto 0 auto;
+  margin: 0.5rem auto 3rem auto;
 }
 
 .uber-zip-logo-column {
@@ -61,7 +61,8 @@ section {
 }
 
 #company-statistics-container {
-  margin: 0.5rem auto 0 auto;
+  margin: 0 5rem 0 5rem;
+  width: 100%;
 }
 
 #logo-containers {
