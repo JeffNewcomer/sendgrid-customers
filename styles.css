@@ -1,3 +1,26 @@
+
+div,
+section,
+nav {
+  border: red 1px solid;
+}
+
+#nav-top {
+  text-align: right;
+}
+
+#nav-top a{
+  padding: 0 1rem;
+}
+
+#sendgrid-nav-logo {
+  width: 8rem;
+}
+
+#nav-bottom-center a {
+  padding: 0 2rem;
+}
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
