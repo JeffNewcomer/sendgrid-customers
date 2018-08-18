@@ -480,7 +480,7 @@ div.footer-btn {
   border: none;
 }
 
-#subscribe-button {
+.contact-and-subscribe {
   width: 6rem;
   height: 3rem;
   border: solid 1px rgba(82, 158, 226, 1);
