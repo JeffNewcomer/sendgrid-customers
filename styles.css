@@ -7,18 +7,35 @@ nav {
 
 #nav-top {
   text-align: right;
+  font-size: 0.7rem;
+  padding: 0.3rem 0;
+
 }
 
-#nav-top a{
-  padding: 0 1rem;
+#nav-top a {
+  margin-right: 0.9rem;
+  padding-right: 0.6rem;
+  color: rgb(38, 55, 70);
 }
 
 #sendgrid-nav-logo {
   width: 8rem;
 }
 
+#nav-bottom-center {
+  margin: auto;
+  height: 4rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 4rem;
+}
+
 #nav-bottom-center a {
-  padding: 0 2rem;
+  font-family: 'NTR', sans-serif;
+  font-weight: bolder;
+  margin: 1.5rem;
+  font-size: 0.9rem;
+  color: rgb(38, 55, 70);
 }
 
 body {
