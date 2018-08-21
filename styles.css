@@ -1,14 +1,15 @@
 
-div,
+/* div,
 section,
 nav {
   border: red 1px solid;
-}
+} */
 
 #nav-top {
   text-align: right;
   font-size: 0.7rem;
-  padding: 0.3rem 0;
+  padding: 0.05rem 0 0.5rem 0;
+  border-bottom: 1px solid rgb(228, 232, 235);
 }
 
 #nav-top a {
@@ -24,23 +25,30 @@ nav {
 }
 
 #sendgrid-nav-logo {
-  width: 8rem;
+  width: 9.5rem;
 }
 
 #nav-bottom-center {
   margin: auto;
-  height: 4rem;
+  height: 5rem;
   text-align: center;
   vertical-align: middle;
-  line-height: 4rem;
+  line-height: 5rem;
+  letter-spacing: 0.05rem;
 }
 
 #nav-bottom-center a {
-  font-family: 'NTR', sans-serif;
-  font-weight: bolder;
+  font-family: 'ColfaxWebMedium';
+  font-weight: 300;
   margin: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: rgb(38, 55, 70);
+}
+
+#contact-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
