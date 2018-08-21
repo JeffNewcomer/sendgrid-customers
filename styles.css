@@ -52,7 +52,7 @@ button {
 }
 
 .company-logo-border.uber-mint-yelp {
-  width: 8rem;
+  width: 8.2rem;
 }
 
 .company-logo-border.airbnb-spotify {
@@ -197,7 +197,7 @@ button {
   cursor: pointer;
 }
 
-.customer-logo {
+.sendgrid-customer-logo {
   max-width: 60%;
   cursor: pointer;
 }
