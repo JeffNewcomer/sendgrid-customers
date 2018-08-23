@@ -2,6 +2,13 @@ div {
   border: 1px solid red;
 }
 
+.flex-container {
+
+	display: flex;
+
+}
+
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
