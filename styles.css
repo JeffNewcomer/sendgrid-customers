@@ -8,6 +8,10 @@ section {
 
 .flex-container {
 	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
+
 }
 
 
@@ -113,7 +117,6 @@ button {
 
 .case-studies-text-top {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
 }
 
 .case-studies-text-bottom {
@@ -122,7 +125,7 @@ button {
 }
 
 .case-studies-image-container {
-  width: 29rem;
+  width: 460px;
   height: 25rem;
   background-position: top;
   background-repeat: no-repeat;
@@ -299,6 +302,10 @@ button {
   font-size: 1rem;
   line-height: 1;
   position: absolute;
+}
+
+p.case-studies-text-top {
+  margin-top: 0;
 }
 
 .case-studies-text-top span {
