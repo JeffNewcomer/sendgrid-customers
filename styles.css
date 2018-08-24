@@ -6,15 +6,6 @@ section {
   border: 5px solid green;
 }
 
-.flex-container {
-	display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 100%;
-
-}
-
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -95,33 +86,27 @@ button {
   position: absolute;
 }
 
+.flex-container {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex: 0 1 auto;
+  width: 100%;
+}
+
+.flex-container.wrap-normal {
+  flex-wrap: wrap;
+}
+
+.flex-container.wrap-in-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 .case-studies-text-container {
   width: 410px;
-}
-
-/* .case-studies-text-container.text-left-image-right {
-  margin: 5rem 1.5rem 0 auto;
-} */
-
-/* .case-studies-text-container.text-left-image-right.couchsurfing-text-margins {
-  margin: 3rem 1.5rem 8rem auto;
-} */
-
-/* .case-studies-text-container.text-right-image-left {
-  margin: 5rem auto 0 1.5rem;
-} */
-
-/* .case-studies-text-container.text-right-image-left.meetup-text-margins {
-  margin: 6.5rem auto 0 1.5rem;
-} */
-
-.case-studies-text-top {
-  font-size: 1.2rem;
-}
-
-.case-studies-text-bottom {
-  font-size: 1rem;
-  line-height: 1.85;
+  margin: 2rem;
+  flex-shrink: 0;
 }
 
 .case-studies-image-container {
@@ -131,6 +116,17 @@ button {
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  margin: 2rem;
+  flex-shrink: 0;
+}
+
+.case-studies-text-top {
+  font-size: 1.2rem;
+}
+
+.case-studies-text-bottom {
+  font-size: 1rem;
+  line-height: 1.85;
 }
 
 .color-bg {
@@ -229,10 +225,6 @@ button {
 
 .bordered {
   border-radius: 2px;
-}
-
-.col {
-  flex: 1;
 }
 
 .small-icons {
@@ -511,6 +503,7 @@ div.footer-btn {
 
 #case-studies-section {
   background-color: rgb(243, 249, 253);
+  padding: 2rem;
 }
 
 #plans-pricing-button {
