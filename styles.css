@@ -10,7 +10,7 @@ section {
 	display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%
+  max-width: 100%;
 
 }
 
@@ -96,7 +96,7 @@ button {
 }
 
 .case-studies-text-container {
-  width: 26rem;
+  width: 410px;
 }
 
 /* .case-studies-text-container.text-left-image-right {
