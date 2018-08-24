@@ -1,11 +1,13 @@
 div {
-  border: 1px solid red;
+  border: 5px solid red;
+}
+
+section {
+  border: 5px solid green;
 }
 
 .flex-container {
-
 	display: flex;
-
 }
 
 
@@ -74,14 +76,14 @@ button {
   width: 10.5rem;
 }
 
-.case-studies-image-container.text-right-image-left {
+/* .case-studies-image-container.text-right-image-left {
   margin: 7rem 1.5rem 0 auto;
 }
 
 .case-studies-image-container.text-left-image-right {
   margin: 7rem auto 0 1.5rem;
   color: #0f67d5;
-}
+} */
 
 .case-studies-logo {
   width: 4rem;
@@ -91,28 +93,23 @@ button {
 
 .case-studies-text-container {
   width: 26rem;
-  height: 30rem;
 }
 
-.case-studies-text-container.text-padding-gusto {
-  padding-top: 2rem;
-}
-
-.case-studies-text-container.text-left-image-right {
+/* .case-studies-text-container.text-left-image-right {
   margin: 5rem 1.5rem 0 auto;
-}
+} */
 
-.case-studies-text-container.text-left-image-right.couchsurfing-text-margins {
+/* .case-studies-text-container.text-left-image-right.couchsurfing-text-margins {
   margin: 3rem 1.5rem 8rem auto;
-}
+} */
 
-.case-studies-text-container.text-right-image-left {
+/* .case-studies-text-container.text-right-image-left {
   margin: 5rem auto 0 1.5rem;
-}
+} */
 
-.case-studies-text-container.text-right-image-left.meetup-text-margins {
+/* .case-studies-text-container.text-right-image-left.meetup-text-margins {
   margin: 6.5rem auto 0 1.5rem;
-}
+} */
 
 .case-studies-text-top {
   font-size: 1.2rem;
@@ -141,7 +138,7 @@ button {
 }
 
 .meetup {
-  background-image: url('images/meetup Image.png');
+  background-image: url('images/meetup-image.png');
   background-size: 100% 57%;
 }
 
