@@ -71,15 +71,6 @@ button {
   width: 10.5rem;
 }
 
-/* .case-studies-image-container.text-right-image-left {
-  margin: 7rem 1.5rem 0 auto;
-}
-
-.case-studies-image-container.text-left-image-right {
-  margin: 7rem auto 0 1.5rem;
-  color: #0f67d5;
-} */
-
 .case-studies-logo {
   width: 4rem;
   margin: 15rem 2rem 0 2rem;
@@ -233,13 +224,21 @@ button {
   cursor: pointer;
 }
 
-.sub-footer-legal {
-  text-align: right;
+.sub-footer {
+  padding: 35px 3rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.sub-footer {
-  padding: 0 2.7rem;
-  margin-top: 2.4rem;
+#footer-lower-section {
+  background-color: rgb(44, 70, 95);
+  height: 6.8rem;
+  padding: 0;
+  width: auto;
+}
+
+#footer-lower-section hr {
+  border: 0.5px solid rgb(66, 89, 111);
 }
 
 .links-lists {
@@ -348,16 +347,6 @@ p.case-studies-text-top {
   border: 0.5px solid rgb(66, 89, 111);
 }
 
-#footer-lower-section {
-  background-color: rgb(44, 70, 95);
-  height: 6.8rem;
-  padding: 0;
-}
-
-#footer-lower-section hr {
-  border: 0.5px solid rgb(66, 89, 111);
-}
-
 .ask-customers-dropdowns select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -463,7 +452,6 @@ div.footer-btn {
 
 #nav-bottom-center {
   margin: auto;
-  height: 4.5rem;
   text-align: center;
   vertical-align: middle;
   letter-spacing: 0.05rem;
@@ -527,7 +515,7 @@ div.footer-btn {
 #company-statistics-container {
   display: flex;
   flex: 0 1 auto;
-  margin: 0 1rem 0 1rem;
+  margin: 0 1rem 3rem 1rem;
   width: 100%;
 }
 
