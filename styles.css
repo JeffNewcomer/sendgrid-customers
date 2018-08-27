@@ -1,10 +1,10 @@
-div {
-  border: 5px solid red;
+/* div {
+  border: 3px solid red;
 }
 
 section {
-  border: 5px solid green;
-}
+  border: 3px solid green;
+} */
 
 body {
   font-family: 'ColfaxRegular';
@@ -316,6 +316,23 @@ p.case-studies-text-top {
   color: rgb(213, 218, 223);
 }
 
+#footer-links {
+  padding-left: 2.5rem;
+  padding-top: 0.5rem;
+  background-color: rgb(44, 70, 95);
+  height: 26.7rem;
+  display: flex;
+  flex: 0 1 auto;
+  width: auto;
+
+}
+
+.footer-link-containers {
+  width: 15%;
+  flex-shrink: 0;
+  margin: 0 auto 0 0;
+}
+
 .footer-link-containers h6 {
   padding-top: 2rem;
   color: white;
@@ -328,6 +345,16 @@ p.case-studies-text-top {
   width: 25%;
   margin-left: 0;
   margin-bottom: 1.6rem;
+  border: 0.5px solid rgb(66, 89, 111);
+}
+
+#footer-lower-section {
+  background-color: rgb(44, 70, 95);
+  height: 6.8rem;
+  padding: 0;
+}
+
+#footer-lower-section hr {
   border: 0.5px solid rgb(66, 89, 111);
 }
 
@@ -422,6 +449,14 @@ div.footer-btn {
   align-items: center;
 }
 
+.nav-bottom {
+  display: flex;
+  flex: 0 1 auto;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
 #sendgrid-nav-logo {
   width: 9.5rem;
 }
@@ -431,8 +466,9 @@ div.footer-btn {
   height: 4.5rem;
   text-align: center;
   vertical-align: middle;
-  line-height: 4.5rem;
   letter-spacing: 0.05rem;
+  display: flex;
+  flex: 0 1 auto;
 }
 
 #nav-bottom-center a {
@@ -588,23 +624,6 @@ div.footer-btn {
   background-image: url('images/pixel-pattern-bottom-left-dark.svg');
   background-position: left bottom;
   background-repeat: no-repeat;
-}
-
-#footer-links {
-  padding-left: 2.5rem;
-  padding-top: 0.5rem;
-  background-color: rgb(44, 70, 95);
-  height: 26.7rem;
-}
-
-#footer-lower-section {
-  background-color: rgb(44, 70, 95);
-  height: 6.8rem;
-  padding: 0;
-}
-
-#footer-lower-section hr {
-  border: 0.5px solid rgb(66, 89, 111);
 }
 
 #bottom-footer {
