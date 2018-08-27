@@ -450,7 +450,7 @@ div.footer-btn {
 }
 
 #companies-big-text-top {
-  margin: 4rem auto 0 auto;
+  margin: 4rem auto 2rem auto;
   color: white;
 }
 
@@ -470,6 +470,13 @@ div.footer-btn {
 
 #company-logo-container {
   margin: 0 auto 3rem auto;
+  display: flex;
+  flex: 0 1 auto;
+}
+
+.rounded-logo-container {
+  width: auto;
+  flex-shrink: 0;
 }
 
 #companies-big-and-small {
