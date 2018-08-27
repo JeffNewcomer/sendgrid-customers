@@ -233,13 +233,21 @@ button {
   cursor: pointer;
 }
 
-.sub-footer-legal {
-  text-align: right;
+.sub-footer {
+  padding: 35px 3rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.sub-footer {
-  padding: 0 2.7rem;
-  margin-top: 2.4rem;
+#footer-lower-section {
+  background-color: rgb(44, 70, 95);
+  height: 6.8rem;
+  padding: 0;
+  width: auto;
+}
+
+#footer-lower-section hr {
+  border: 0.5px solid rgb(66, 89, 111);
 }
 
 .links-lists {
@@ -345,16 +353,6 @@ p.case-studies-text-top {
   width: 25%;
   margin-left: 0;
   margin-bottom: 1.6rem;
-  border: 0.5px solid rgb(66, 89, 111);
-}
-
-#footer-lower-section {
-  background-color: rgb(44, 70, 95);
-  height: 6.8rem;
-  padding: 0;
-}
-
-#footer-lower-section hr {
   border: 0.5px solid rgb(66, 89, 111);
 }
 
