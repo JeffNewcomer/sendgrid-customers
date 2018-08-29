@@ -418,24 +418,21 @@ div.footer-btn {
   font-size: 0.68rem;
 }
 
-.navbar-container {
-  display: grid;
-  grid-template-rows: 100% 100%
+#navbar-container {
+  display: flex;
+	justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 #nav-top {
-  text-align: right;
-  font-size: 0.85rem;
-  padding: 0.05rem 0.85rem 0.5rem 0;
-  border-bottom: 1px solid rgb(228, 232, 235);
-}
-
-.nav-bottom {
-  text-align: center;
-  vertical-align: middle;
-
   display: flex;
-  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-content: center;
+  font-size: 0.85rem;
+  padding: 0.5rem 0.85rem 0.5rem 0;
+  border-bottom: 1px solid rgb(228, 232, 235);
 }
 
 #nav-logo-container {
@@ -444,7 +441,7 @@ div.footer-btn {
   flex-flow: column wrap;
   align-items: center;
   justify-content: space-around;
-  width: 220px;
+  min-width: 195px;
 
   /* align-items: center;
   justify-content: center;
@@ -458,8 +455,14 @@ div.footer-btn {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-around;
-  width: 820px;
+  width: auto;
+  text-align: center;
+}
+
+.nav-bar-center-links {
+  width: auto;
+  flex-shrink: 0;
+  margin: 1rem 2.5rem 1rem 2.5rem;
 }
 
 #contact-us-container {
@@ -467,7 +470,7 @@ div.footer-btn {
   align-items: center;
   display: flex;
   flex-flow: column wrap;
-  width: 220px;
+  min-width: 195px;
 }
 
 #sendgrid-nav-logo {
@@ -486,7 +489,6 @@ div.footer-btn {
   font-weight: 300;
   font-size: 0.85rem;
   color: rgb(38, 55, 70);
-
 }
 
 #companies-big-text-top {
