@@ -1,11 +1,3 @@
-/* div {
-  border: 3px solid red;
-}
-
-section {
-  border: 3px solid green;
-} */
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -81,8 +73,7 @@ button {
   display: flex;
 	justify-content: center;
   align-items: center;
-  padding: 2rem;
-  flex: 0 1 auto;
+  margin: 2rem;
   width: 100%;
 }
 
@@ -248,11 +239,11 @@ button {
 }
 
 .right-dropdown {
-  float: left;
+  align-self: flex-start;
 }
 
 .left-dropdown {
-  float: right;
+  align-self: flex-end;
 }
 
 .float-right {
@@ -267,15 +258,6 @@ button {
   font-size: 1.05rem;
   padding-top: 0.5rem;
   padding-bottom: 6.5rem;
-  text-align: center;
-}
-
-.using-sendgrid-for-text {
-  font-size: 1rem;
-  padding-top: 0.7rem;
-}
-
-.center-text {
   text-align: center;
 }
 
@@ -321,9 +303,7 @@ p.case-studies-text-top {
   background-color: rgb(44, 70, 95);
   height: 26.7rem;
   display: flex;
-  flex: 0 1 auto;
   width: auto;
-
 }
 
 .footer-link-containers {
@@ -345,6 +325,21 @@ p.case-studies-text-top {
   margin-left: 0;
   margin-bottom: 1.6rem;
   border: 0.5px solid rgb(66, 89, 111);
+}
+
+.ask-customers-dropdowns-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.center-text {
+  align-self: center;
+}
+
+.ask-customers-dropdowns {
+  margin: 0.5rem;
 }
 
 .ask-customers-dropdowns select {
@@ -418,11 +413,57 @@ div.footer-btn {
   font-size: 0.68rem;
 }
 
+#navbar-container {
+  display: flex;
+	justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
 #nav-top {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
   font-size: 0.85rem;
-  padding: 0.05rem 0.85rem 0.5rem 0;
+  padding: 0.2rem 0.85rem 0.5rem 0;
   border-bottom: 1px solid rgb(228, 232, 235);
+}
+
+#nav-logo-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  min-width: 195px;
+}
+
+#nav-bottom-center {
+  letter-spacing: 0.05rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: auto;
+  height: 5rem;
+  text-align: center;
+}
+
+.nav-bar-center-links {
+  width: auto;
+  flex-shrink: 0;
+  margin: 1rem 2.5rem 1rem 2.5rem;
+}
+
+#contact-us-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  min-width: 195px;
+}
+
+#sendgrid-nav-logo {
+  width: 9.5rem;
 }
 
 #nav-top a {
@@ -432,45 +473,11 @@ div.footer-btn {
   font-family: 'ColfaxWebLight';
 }
 
-#nav-logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-bottom {
-  display: flex;
-  flex: 0 1 auto;
-  text-align: center;
-  vertical-align: middle;
-  width: 100%;
-}
-
-#sendgrid-nav-logo {
-  width: 9.5rem;
-}
-
-#nav-bottom-center {
-  margin: auto;
-  text-align: center;
-  vertical-align: middle;
-  letter-spacing: 0.05rem;
-  display: flex;
-  flex: 0 1 auto;
-}
-
 #nav-bottom-center a {
   font-family: 'ColfaxWebMedium';
   font-weight: 300;
-  margin: 1.5rem;
   font-size: 0.85rem;
   color: rgb(38, 55, 70);
-}
-
-#contact-us-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #companies-big-text-top {
@@ -495,7 +502,7 @@ div.footer-btn {
 #company-logo-container {
   margin: 0 auto 3rem auto;
   display: flex;
-  flex: 0 1 auto;
+  flex-flow: row wrap;
 }
 
 .rounded-logo-container {
@@ -514,8 +521,7 @@ div.footer-btn {
 
 #company-statistics-container {
   display: flex;
-  flex: 0 1 auto;
-  margin: 0 1rem 3rem 1rem;
+  margin: 0 auto 3rem auto;
   width: 100%;
 }
 

@@ -8,7 +8,7 @@
   <title>SendGrid - Customers</title>
 </head>
 <body>
-  <nav class="row" id="navbar-container">
+  <section class="row" id="navbar-container">
     <div class="col-xs-12" id="nav-top">
       <a>Partners</a>
       <a>Blog</a>
@@ -16,22 +16,22 @@
       <a>Sign Up</a>
       <a>Log In</a>
     </div>
-    <div class="row nav-bottom">
-      <div class="col-xs-2" id="nav-logo-container">
+    <div class="row">
+      <div class="col" id="nav-logo-container">
         <a href="#"> <img id="sendgrid-nav-logo" src="images/sg-logo-300.png"></a>
       </div>
-      <div class="col-xs-8" id="nav-bottom-center">
-        <a class="col">PRICING</a>
-        <a class="col"> SOLUTIONS</a>
-        <a class="col"> CUSTOMERS</a>
-        <a class="col"> RESOURCES</a>
-        <a class="col"> DOCUMENTATION</a>
+      <div class="col" id="nav-bottom-center">
+        <div class="col nav-bar-center-links"><a>PRICING</a></div>
+        <div class="col nav-bar-center-links"><a>SOLUTIONS</a></div>
+        <div class="col nav-bar-center-links"><a>CUSTOMERS</a></div>
+        <div class="col nav-bar-center-links"><a>RESOURCES</a></div>
+        <div class="col nav-bar-center-links"><a>DOCUMENTATION</a></div>
       </div>
-      <div class="col-xs-2" id="contact-us-container">
+      <div class="col" id="contact-us-container">
         <button class="bordered contact-and-subscribe">Contact Us</button>
       </div>
     </div>
-  </nav>
+  </section>
   <section class="row" id="companies-big-and-small">
     <div id="companies-big-text-top">
       <div class="col-xs-12"><h1>Companies big and small trust<br>SendGrid with their email.</h1></div>
@@ -93,7 +93,6 @@
     </div>
   </section>
   <section class="row" id="case-studies-section">
-    <!-- meetup section -->
     <div class="col flex-container wrap-normal">
       <div class="case-studies-image-container meetup">
         <img class="color-bg" src="images/color-background-red exported.png">
@@ -112,7 +111,6 @@
         <a class="case-studies-text-bottom">Learn more about SendGrid's API and SMTP solutions &gt<br>Discover how SendGrid supports high volume senders &gt</a>
       </div>
     </div>
-    <!-- ebay section -->
     <div class="col flex-container wrap-in-reverse">
       <div class="case-studies-text-container">
         <p class="case-studies-text-top">
@@ -131,7 +129,6 @@
         </p>
       </div>
     </div>
-    <!-- gusto section -->
     <div class="col flex-container wrap-normal">
       <div class="case-studies-image-container gusto">
         <img class="color-bg" src="images/color-background-red exported.png">
@@ -150,7 +147,6 @@
         <a class="case-studies-text-bottom">Learn why we're the delivery experts &gt</a>
       </div>
     </div>
-    <!-- couchsurfing section -->
     <div class="col flex-container wrap-in-reverse">
       <div class="case-studies-text-container">
         <p class="case-studies-text-top">
@@ -172,16 +168,18 @@
   </section>
   <section class="row" id="ask-our-customers-section">
     <div class="col-xs-12"><h1>Why SendGrid? Just ask our customers.</h1></div>
-    <div class="ask-customers-dropdowns col-xs-12 col-sm-5">
-      <select class="left-dropdown">
-        <option value="0">All Industries</option>
-      </select>
-    </div>
-    <div class="center-text using-sendgrid-for-text col-xs-12 col-sm-2 col-md-2 col-lg-2">using SendGrid for</div>
-    <div class="ask-customers-dropdowns col-xs-12 col-sm-5">
-      <select class="right-dropdown">
-        <option value="0">All Solutions</option>
-      </select>
+    <div class="ask-customers-dropdowns-container">
+      <div class="ask-customers-dropdowns col">
+        <select class="left-dropdown">
+          <option value="0">All Industries</option>
+        </select>
+      </div>
+      <div class="center-text col">using SendGrid for</div>
+      <div class="ask-customers-dropdowns col">
+        <select class="right-dropdown">
+          <option value="0">All Solutions</option>
+        </select>
+      </div>
     </div>
     <div class="row" id="logo-containers">
       <div class="col-xs-12 col-sm-6 col-md-3">
