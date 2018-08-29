@@ -1,10 +1,10 @@
-/* div {
+div {
   border: 3px solid red;
 }
 
 section {
   border: 3px solid green;
-} */
+}
 
 body {
   font-family: 'ColfaxRegular';
@@ -418,11 +418,60 @@ div.footer-btn {
   font-size: 0.68rem;
 }
 
+.navbar-container {
+  display: grid;
+  grid-template-rows: 100% 100%
+}
+
 #nav-top {
   text-align: right;
   font-size: 0.85rem;
   padding: 0.05rem 0.85rem 0.5rem 0;
   border-bottom: 1px solid rgb(228, 232, 235);
+}
+
+.nav-bottom {
+  text-align: center;
+  vertical-align: middle;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#nav-logo-container {
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 220px;
+
+  /* align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0 */
+}
+
+#nav-bottom-center {
+  letter-spacing: 0.05rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 820px;
+}
+
+#contact-us-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  width: 220px;
+}
+
+#sendgrid-nav-logo {
+  width: 9.5rem;
 }
 
 #nav-top a {
@@ -432,45 +481,12 @@ div.footer-btn {
   font-family: 'ColfaxWebLight';
 }
 
-#nav-logo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-bottom {
-  display: flex;
-  flex: 0 1 auto;
-  text-align: center;
-  vertical-align: middle;
-  width: 100%;
-}
-
-#sendgrid-nav-logo {
-  width: 9.5rem;
-}
-
-#nav-bottom-center {
-  margin: auto;
-  text-align: center;
-  vertical-align: middle;
-  letter-spacing: 0.05rem;
-  display: flex;
-  flex: 0 1 auto;
-}
-
 #nav-bottom-center a {
   font-family: 'ColfaxWebMedium';
   font-weight: 300;
-  margin: 1.5rem;
   font-size: 0.85rem;
   color: rgb(38, 55, 70);
-}
 
-#contact-us-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #companies-big-text-top {
@@ -495,7 +511,8 @@ div.footer-btn {
 #company-logo-container {
   margin: 0 auto 3rem auto;
   display: flex;
-  flex: 0 1 auto;
+  flex-flow: row wrap;
+
 }
 
 .rounded-logo-container {
