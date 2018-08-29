@@ -81,8 +81,7 @@ button {
   display: flex;
 	justify-content: center;
   align-items: center;
-  padding: 2rem;
-  flex: 0 1 auto;
+  margin: 2rem;
   width: 100%;
 }
 
@@ -248,11 +247,11 @@ button {
 }
 
 .right-dropdown {
-  float: left;
+  align-self: flex-start;
 }
 
 .left-dropdown {
-  float: right;
+  align-self: flex-end;
 }
 
 .float-right {
@@ -321,7 +320,6 @@ p.case-studies-text-top {
   background-color: rgb(44, 70, 95);
   height: 26.7rem;
   display: flex;
-  flex: 0 1 auto;
   width: auto;
 
 }
@@ -345,6 +343,15 @@ p.case-studies-text-top {
   margin-left: 0;
   margin-bottom: 1.6rem;
   border: 0.5px solid rgb(66, 89, 111);
+}
+
+.ask-customers-dropdowns-container {
+  display: flex;
+}
+
+.ask-customers-dropdowns {
+  display: flex;
+  margin: 0 auto;
 }
 
 .ask-customers-dropdowns select {
@@ -533,8 +540,7 @@ div.footer-btn {
 
 #company-statistics-container {
   display: flex;
-  flex: 0 1 auto;
-  margin: 0 1rem 3rem 1rem;
+  margin: 0 auto 3rem auto;
   width: 100%;
 }
 
