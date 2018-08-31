@@ -30,6 +30,32 @@ button {
   cursor: pointer;
 }
 
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-flex {
+  display: flex;
+}
+
+#difference-section {
+  text-align: center;
+  width: 100%;
+}
+
+.difference-section-center-container {
+  display: flex;
+  padding: 0 9.5rem;
+  justify-content: center;
+}
+
+.difference-section-center-items {
+  flex-shrink: 0;
+  width: 19.2rem;
+  margin: 1rem;
+}
+
 .uber-zip-logo-column {
   margin-top: 2rem;
 }
@@ -146,6 +172,13 @@ button {
   font-weight: lighter;
 }
 
+#did-you-know-section {
+  text-align: center;
+  background-color: rgb(248, 248, 250);
+  padding-top: 5.2rem;
+  padding-bottom: 3rem;
+}
+
 .did-you-know-text {
   color: rgb(53, 199, 116);
   line-height: 1.5;
@@ -238,20 +271,10 @@ button {
   cursor: pointer;
 }
 
-.right-dropdown {
-  align-self: flex-start;
-}
-
-.left-dropdown {
-  align-self: flex-end;
-}
-
-.float-right {
-  float: right;
-}
-
 .footer-input-container {
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .view-more-cust-text {
@@ -342,45 +365,7 @@ p.case-studies-text-top {
   margin: 0.5rem;
 }
 
-.ask-customers-dropdowns select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-image: url("images/caret-south-blue.png");
-  background-repeat: no-repeat;
-  background-position: 13.75rem 1.1rem;
-  width: 15rem;
-  height: 2.5rem;
-  background-size: 0.65rem;
-  color: rgb(80, 157, 226);
-  padding-left: 0.5rem;
-  border-radius: 2px;
-  font-size: 0.8rem;
-  border: 1px solid rgb(80, 157, 226);
-  background-color: white;
-  cursor: pointer;
-}
-
-.newsletter-email-input select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 14rem;
-  height: 2.3rem;
-  background-size: 0.65rem;
-  color: rgb(169, 181, 191);
-  padding-left: 0.5rem;
-  border-radius: 1px;
-  font-size: 0.8rem;
-  border: 0.5px solid lightgray;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
-  background-color: white;
-  border-collapse: collapse;
-  cursor: pointer;
-}
-
-.newsletter-subscribe-dropdown select {
+.footer-input-container select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -400,6 +385,29 @@ p.case-studies-text-top {
   cursor: pointer;
 }
 
+#left-dropdown {
+  margin-right: 0.5rem;
+  height: 2rem;
+}
+
+#right-dropdown {
+  width: 14rem;
+  margin-left: 0.5rem;
+  border-collapse: collapse;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+
+#sign-up-btn {
+  height: 2rem;
+  width: 5rem;
+  margin-left: -3px;
+  background-color: rgb(44, 134, 220);
+  border-width: 0px;
+  color: white;
+  font-size: 0.8rem;
+}
+
 img#couchsurfing-logo.case-studies-logo {
   width: 4.5rem;
 }
@@ -414,11 +422,14 @@ div.footer-btn {
 }
 
 #navbar-container {
-  display: flex;
 	justify-content: center;
   padding: 0;
   margin: 0;
   width: 100%;
+}
+
+.lower-navbar-container {
+  justify-content: center;
 }
 
 #nav-top {
@@ -436,6 +447,7 @@ div.footer-btn {
   align-items: center;
   justify-content: space-around;
   min-width: 195px;
+  order: 1;
 }
 
 #nav-bottom-center {
@@ -444,8 +456,10 @@ div.footer-btn {
   flex-flow: row wrap;
   align-items: center;
   width: auto;
-  height: 5rem;
+  height: auto;
   text-align: center;
+  order: 2;
+  justify-content: space-around;
 }
 
 .nav-bar-center-links {
@@ -455,15 +469,17 @@ div.footer-btn {
 }
 
 #contact-us-container {
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   display: flex;
   flex-flow: column wrap;
   min-width: 195px;
+  order: 3;
 }
 
 #sendgrid-nav-logo {
   width: 9.5rem;
+  padding: 20px 0;
 }
 
 #nav-top a {
@@ -500,14 +516,16 @@ div.footer-btn {
 }
 
 #company-logo-container {
-  margin: 0 auto 3rem auto;
+  margin: 0 auto 2rem auto;
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .rounded-logo-container {
   width: auto;
   flex-shrink: 0;
+  margin-bottom: 1rem;
 }
 
 #companies-big-and-small {
@@ -541,7 +559,16 @@ div.footer-btn {
 }
 
 #logo-containers {
+  display: flex;
   margin: 0.5rem auto 0 auto;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 #case-studies-section {
@@ -565,34 +592,20 @@ div.footer-btn {
   color: #4da6e5;
   background-color: white;
   font-family: 'ColfaxWebLight'
-  font-weight: 400;
 }
 
 .contact-and-subscribe:hover {
   background-color: lightgray;
 }
 
-#confidence-section-pricing-cta {
+#confidence-section-pricing {
   color: white;
-  margin-left: 9rem;
-  margin-top: 9.5rem;
+  width: 29rem;
+  height: 12.5rem;
+  flex-shrink: 0;
 }
 
-#difference-section {
-  padding-left: 9.5rem;
-  padding-right: 9.5rem;
-  text-align: center;
-}
-
-#did-you-know-section {
-  text-align: center;
-  background-color: rgb(248, 248, 250);
-  height: 32rem;
-  padding-top: 5.2rem;
-  padding-bottom: 3rem;
-}
-
-#confidence-section-pricing-cta p {
+#confidence-section-pricing p {
   line-height: 2;
   font-size: 1rem;
   padding-bottom: 0.4rem;
@@ -602,9 +615,9 @@ div.footer-btn {
   background-color: white;
   color: #4da6e5;
   width: 21rem;
-  margin-left: 5rem;
-  margin-top: 5rem;
-  padding: 2rem;
+  min-height: 17rem;
+  padding: 1rem 1rem 2rem 2rem;
+  flex-shrink: 0;
 }
 
 #confidence-section-blog-links h2 {
@@ -612,12 +625,17 @@ div.footer-btn {
   padding-bottom: 1rem;
 }
 
-#blue-bg {
-  height: 31.5rem;
+#confidence-section {
+  height: 30.5rem;
   background-color: rgb(44, 134, 220);
   background-image: url('images/pixel-pattern-bottom-left-dark.svg');
   background-position: left bottom;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 9.5rem;
+  justify-content: space-between;
 }
 
 #bottom-footer {
@@ -661,13 +679,12 @@ div.footer-btn {
   width: 90%;
 }
 
-#sign-up-btn {
+#select-btn {
   width: 5rem;
   height: 2.3rem;
   background-color: rgb(75, 148, 213);
   color: white;
   font-size: 0.9rem;
-  float: left;
   border: none;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
