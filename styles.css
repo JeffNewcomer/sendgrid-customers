@@ -260,10 +260,6 @@ button {
   align-self: flex-end;
 }
 
-.float-right {
-  float: right;
-}
-
 .footer-input-container {
   margin-top: 2rem;
 }
@@ -571,6 +567,10 @@ div.footer-btn {
 
 .justify-content-space-around {
   justify-content: space-around;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 #case-studies-section {
