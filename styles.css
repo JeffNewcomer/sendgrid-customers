@@ -278,16 +278,14 @@ button {
   cursor: pointer;
 }
 
-.right-dropdown {
-  align-self: flex-start;
-}
-
 .left-dropdown {
-  align-self: flex-end;
+  margin-right: 0.5rem;
 }
 
 .footer-input-container {
   margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .view-more-cust-text {
@@ -397,26 +395,7 @@ p.case-studies-text-top {
   cursor: pointer;
 }
 
-.newsletter-email-input select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 14rem;
-  height: 2.3rem;
-  background-size: 0.65rem;
-  color: rgb(169, 181, 191);
-  padding-left: 0.5rem;
-  border-radius: 1px;
-  font-size: 0.8rem;
-  border: 0.5px solid lightgray;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
-  background-color: white;
-  border-collapse: collapse;
-  cursor: pointer;
-}
-
-.newsletter-subscribe-dropdown select {
+.footer-input-container select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -434,6 +413,18 @@ p.case-studies-text-top {
   border: 0.5px solid lightgray;
   background-color: white;
   cursor: pointer;
+}
+
+#right-dropdown {
+  width: 14rem;
+  margin-left: 0.5rem;
+  border-collapse: collapse;
+}
+
+#sign-up-btn {
+  height: 2.3rem;
+  border-collapse: collapse;
+  margin-left: -3px;
 }
 
 img#couchsurfing-logo.case-studies-logo {
@@ -708,13 +699,12 @@ div.footer-btn {
   width: 90%;
 }
 
-#sign-up-btn {
+#select-btn {
   width: 5rem;
   height: 2.3rem;
   background-color: rgb(75, 148, 213);
   color: white;
   font-size: 0.9rem;
-  float: left;
   border: none;
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;

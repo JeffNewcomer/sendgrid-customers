@@ -287,22 +287,18 @@
     </div>
   </section>
   <section class="row" id="confidence-section">
-    <!-- <div class="col-xs-12 col-sm-6"> -->
-      <div id="confidence-section-pricing">
-        <h1>Send With Confidence</h1>
-        <p> Partner with the email service trusted by developers and marketers for time-savings, scalability, and delivery expertise.</p>
-        <button class="bordered" id="plans-pricing-button">See Plans and Pricing</button>
-      </div>
-    <!-- </div> -->
-    <!-- <div class="col-xs-12 col-sm-6"> -->
-      <div id="confidence-section-blog-links" class="bordered">
-        <h2>From the SendGrid Blog</h2>
-        <a>How Apple's DMARC Changes Affect Email Senders &gt</a>
-        <a>What is RetentionMarketing? And How to Use it in Your Email Program &gt</a>
-        <a>Krampus: Introducing SendGrid's Open Source Remediation Tool &gt</a>
-        <button class="bordered contact-and-subscribe">Subscribe</button>
-      </div>
-    <!-- </div> -->
+    <div id="confidence-section-pricing">
+      <h1>Send With Confidence</h1>
+      <p> Partner with the email service trusted by developers and marketers for time-savings, scalability, and delivery expertise.</p>
+      <button class="bordered" id="plans-pricing-button">See Plans and Pricing</button>
+    </div>
+    <div id="confidence-section-blog-links" class="bordered">
+      <h2>From the SendGrid Blog</h2>
+      <a>How Apple's DMARC Changes Affect Email Senders &gt</a>
+      <a>What is RetentionMarketing? And How to Use it in Your Email Program &gt</a>
+      <a>Krampus: Introducing SendGrid's Open Source Remediation Tool &gt</a>
+      <button class="bordered contact-and-subscribe">Subscribe</button>
+    </div>
   </section>
   <section class="row" id="footer-links">
     <div class="col footer-link-containers">
@@ -383,13 +379,11 @@
       </center>
       <h2><em>Sign up for our newsletter to get The Scoop on product and email news.</em></h2>
       <div class="row footer-input-container">
-        <div class="newsletter-subscribe-dropdown col-xs-12 col-sm-6">
-          <select class="left-dropdown">
-            <option value="0"><a href="#"><span>Subscribe me to BOTH the newsletters!</span></a></option>
-          </select>
-        </div>
-        <div class="newsletter-email-input col-xs-12 col-sm-6">
-          <select class="right-dropdown">
+        <select class="left-dropdown">
+          <option value="0"><a href="#"><span>Subscribe me to BOTH the newsletters!</span></a></option>
+        </select>
+        <div>
+          <select id="right-dropdown">
             <option value="0"><a href="#"><span>Email Address</span></a></option>
           </select>
           <button id="sign-up-btn">Sign Up</button>
