@@ -1,3 +1,17 @@
+div {
+  border: solid red 3px;
+}
+
+section {
+  border: solid green 5px;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -414,11 +428,14 @@ div.footer-btn {
 }
 
 #navbar-container {
-  display: flex;
 	justify-content: center;
   padding: 0;
   margin: 0;
   width: 100%;
+}
+
+.lower-navbar-container {
+  justify-content: center;
 }
 
 #nav-top {
@@ -436,6 +453,7 @@ div.footer-btn {
   align-items: center;
   justify-content: space-around;
   min-width: 195px;
+  order: 1;
 }
 
 #nav-bottom-center {
@@ -444,8 +462,9 @@ div.footer-btn {
   flex-flow: row wrap;
   align-items: center;
   width: auto;
-  height: 5rem;
+  height: auto;
   text-align: center;
+  order: 2;
 }
 
 .nav-bar-center-links {
@@ -460,6 +479,7 @@ div.footer-btn {
   display: flex;
   flex-flow: column wrap;
   min-width: 195px;
+  order: 3;
 }
 
 #sendgrid-nav-logo {
