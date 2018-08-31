@@ -1,10 +1,10 @@
-/* div {
+div {
   border: solid red 3px;
 }
 
 section {
   border: solid green 5px;
-} */
+}
 
 .display-flex-column {
   display: flex;
@@ -522,14 +522,16 @@ div.footer-btn {
 }
 
 #company-logo-container {
-  margin: 0 auto 3rem auto;
+  margin: 0 auto 2rem auto;
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .rounded-logo-container {
   width: auto;
   flex-shrink: 0;
+  margin-bottom: 1rem;
 }
 
 #companies-big-and-small {
