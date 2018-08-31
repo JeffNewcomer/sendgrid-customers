@@ -1,36 +1,3 @@
-/* div {
-  border: solid red 3px;
-}
-
-section {
-  border: solid green 5px;
-} */
-
-.display-flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.display-flex {
-  display: flex;
-}
-
-#difference-section {
-  text-align: center;
-  width: 100%;
-}
-
-.difference-section-center-container {
-  display: flex;
-  padding: 0 9.5rem;
-  justify-content: center;
-}
-
-.difference-section-center-items {
-  flex-shrink: 0;
-  width: 20rem;
-}
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -61,6 +28,32 @@ p {
 
 button {
   cursor: pointer;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-flex {
+  display: flex;
+}
+
+#difference-section {
+  text-align: center;
+  width: 100%;
+}
+
+.difference-section-center-container {
+  display: flex;
+  padding: 0 9.5rem;
+  justify-content: center;
+}
+
+.difference-section-center-items {
+  flex-shrink: 0;
+  width: 19.2rem;
+  margin: 1rem;
 }
 
 .uber-zip-logo-column {
@@ -278,10 +271,6 @@ button {
   cursor: pointer;
 }
 
-.left-dropdown {
-  margin-right: 0.5rem;
-}
-
 .footer-input-container {
   margin-top: 2rem;
   display: flex;
@@ -376,25 +365,6 @@ p.case-studies-text-top {
   margin: 0.5rem;
 }
 
-.ask-customers-dropdowns select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background-image: url("images/caret-south-blue.png");
-  background-repeat: no-repeat;
-  background-position: 13.75rem 1.1rem;
-  width: 15rem;
-  height: 2.5rem;
-  background-size: 0.65rem;
-  color: rgb(80, 157, 226);
-  padding-left: 0.5rem;
-  border-radius: 2px;
-  font-size: 0.8rem;
-  border: 1px solid rgb(80, 157, 226);
-  background-color: white;
-  cursor: pointer;
-}
-
 .footer-input-container select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -415,16 +385,27 @@ p.case-studies-text-top {
   cursor: pointer;
 }
 
+#left-dropdown {
+  margin-right: 0.5rem;
+  height: 2rem;
+}
+
 #right-dropdown {
   width: 14rem;
   margin-left: 0.5rem;
   border-collapse: collapse;
+  height: 2rem;
+  font-size: 0.8rem;
 }
 
 #sign-up-btn {
-  height: 2.3rem;
-  border-collapse: collapse;
+  height: 2rem;
+  width: 5rem;
   margin-left: -3px;
+  background-color: rgb(44, 134, 220);
+  border-width: 0px;
+  color: white;
+  font-size: 0.8rem;
 }
 
 img#couchsurfing-logo.case-studies-logo {
@@ -611,7 +592,6 @@ div.footer-btn {
   color: #4da6e5;
   background-color: white;
   font-family: 'ColfaxWebLight'
-  font-weight: 400;
 }
 
 .contact-and-subscribe:hover {
