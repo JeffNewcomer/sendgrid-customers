@@ -1,11 +1,3 @@
-section {
-  border: solid green 2px;
-}
-
-div {
-  border: solid red 2px;
-}
-
 body {
   font-family: 'ColfaxRegular';
   font-size: 13.5px;
@@ -105,7 +97,7 @@ button {
 
 .flex-container {
   display: flex;
-	justify-content: center;
+  justify-content: center;
   align-items: center;
   margin: 2rem;
   width: 100%;
@@ -182,9 +174,13 @@ button {
 
 #did-you-know-section {
   text-align: center;
-  background-color: rgb(248, 248, 250);
-  padding-top: 5.2rem;
-  padding-bottom: 3rem;
+  background-color: rgb(251, 251, 251);
+  padding-top: 4.2rem;
+  padding-bottom: 4.2rem;
+}
+
+#did-you-know-section h1 {
+  margin-bottom: 4.2rem;
 }
 
 .did-you-know-text {
@@ -238,7 +234,7 @@ button {
 }
 
 .difference-section-header {
-  padding-top: 3.5rem;
+  padding-top: 4.2rem;
   padding-bottom: 2.7rem;
 }
 
@@ -260,6 +256,21 @@ button {
   padding: 35px 3rem 0 3rem;
   display: flex;
   justify-content: space-between;
+}
+
+.links-lists hr {
+  width: 25%;
+  margin-left: 0;
+  margin-bottom: 1.6rem;
+  border: 0.5px solid rgb(66, 89, 111);
+}
+
+.case-studies-text-container hr {
+  width: 7%;
+  margin-left: 0;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  border: 1.5px solid rgb(165, 207, 240);
 }
 
 #footer-lower-section {
@@ -290,14 +301,6 @@ button {
   padding-top: 0.5rem;
   padding-bottom: 6.5rem;
   text-align: center;
-}
-
-.case-studies-text-container hr {
-  width: 7%;
-  margin-left: 0;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  border: 1.5px solid rgb(165, 207, 240);
 }
 
 .case-studies-image-container p {
@@ -350,13 +353,6 @@ p.case-studies-text-top {
   font-family: 'ColfaxWebMedium';
   letter-spacing: 1.2px;
   font-size: 0.65rem;
-}
-
-.links-lists hr {
-  width: 25%;
-  margin-left: 0;
-  margin-bottom: 1.6rem;
-  border: 0.5px solid rgb(66, 89, 111);
 }
 
 .ask-customers-dropdowns-container {
@@ -412,7 +408,7 @@ p.case-studies-text-top {
   width: 5rem;
   margin-left: -3px;
   background-color: rgb(44, 134, 220);
-  border-width: 0px;
+  border-width: 0;
   color: white;
   font-size: 0.8rem;
 }
@@ -431,7 +427,7 @@ div.footer-btn {
 }
 
 #navbar-container {
-	justify-content: center;
+  justify-content: center;
   padding: 0;
   margin: 0;
   width: 100%;
