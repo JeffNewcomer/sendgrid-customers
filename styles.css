@@ -612,6 +612,7 @@ div.footer-btn {
   width: 29rem;
   height: 12.5rem;
   flex-shrink: 0;
+  margin: 4.9rem 0;
 }
 
 #confidence-section-pricing p {
@@ -627,6 +628,7 @@ div.footer-btn {
   min-height: 17rem;
   padding: 1rem 1rem 2rem 2rem;
   flex-shrink: 0;
+  margin: 4.9rem 0;
 }
 
 #confidence-section-blog-links h2 {
@@ -635,16 +637,14 @@ div.footer-btn {
 }
 
 #confidence-section {
-  height: 30.5rem;
   background-color: rgb(44, 134, 220);
   background-image: url('images/pixel-pattern-bottom-left-dark.svg');
   background-position: left bottom;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  padding: 0 9.5rem;
-  justify-content: space-between;
 }
 
 #bottom-footer {
