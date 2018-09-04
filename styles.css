@@ -177,6 +177,7 @@ button {
   background-color: rgb(251, 251, 251);
   padding-top: 4.2rem;
   padding-bottom: 4.2rem;
+  display: flex;
 }
 
 #did-you-know-section h1 {
@@ -201,6 +202,10 @@ button {
   background-image: url('images/wave-background.svg');
   background-position: right bottom;
   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 479px){
+  .did-you-know-card { width: 90%; }
 }
 
 .logo-container {
