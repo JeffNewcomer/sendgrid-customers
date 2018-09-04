@@ -114,7 +114,7 @@ button {
 .case-studies-text-container {
   width: 410px;
   margin: 2rem;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .case-studies-image-container {
@@ -126,6 +126,14 @@ button {
   overflow: hidden;
   margin: 2rem;
   flex-shrink: 0;
+}
+
+@media only screen and (max-width: 479px) {
+  #case-studies-section { width: 90%; }
+}
+
+@media only screen and (max-width: 479px) {
+  #case-studies-section { height: 190%; }
 }
 
 .case-studies-text-top {
@@ -146,22 +154,22 @@ button {
 
 .meetup {
   background-image: url('images/meetup-image.png');
-  background-size: 100% 57%;
+  background-size: cover 57%;
 }
 
 .ebay {
   background-image: url('images/image-ebay-customers.jpg');
-  background-size: 100% 59%;
+  background-size: cover 59%;
 }
 
 .gusto {
   background-image: url('images/gusto-office-e1520473893608-940x374.jpg');
-  background-size: 100% 58%;
+  background-size: cover 58%;
 }
 
 .couchsurfing {
   background-image: url('images/image-couchsurfing-customers.jpg');
-  background-size: 100% 59%;
+  background-size: cover 59%;
 }
 
 .large-numbers {
@@ -204,7 +212,7 @@ button {
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 479px) {
   .did-you-know-card { width: 90%; }
 }
 
@@ -583,7 +591,8 @@ div.footer-btn {
 
 #case-studies-section {
   background-color: rgb(243, 249, 253);
-  padding: 2rem;
+  /* padding: 2rem; */
+  display: flex;
 }
 
 #plans-pricing-button {
@@ -646,6 +655,10 @@ div.footer-btn {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 479px) {
+  .case-studies-image-container { width: 90%; }
 }
 
 #bottom-footer {
