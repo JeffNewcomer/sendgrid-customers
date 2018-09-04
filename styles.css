@@ -114,26 +114,17 @@ button {
 .case-studies-text-container {
   width: 410px;
   margin: 2rem;
-  /* flex-shrink: 0; */
 }
 
 .case-studies-image-container {
   width: 460px;
-  height: 25rem;
+  height: 405px;
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
   margin: 2rem;
   flex-shrink: 0;
-}
-
-@media only screen and (max-width: 479px) {
-  #case-studies-section { width: 90%; }
-}
-
-@media only screen and (max-width: 479px) {
-  #case-studies-section { height: 190%; }
 }
 
 .case-studies-text-top {
@@ -591,8 +582,17 @@ div.footer-btn {
 
 #case-studies-section {
   background-color: rgb(243, 249, 253);
-  /* padding: 2rem; */
   display: flex;
+  width: auto;
+  padding: 4rem 0 4rem 0;
+}
+
+div.col.flex-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 479px) {
+  div.col.flex-container { width: 90%; }
 }
 
 #plans-pricing-button {
@@ -625,6 +625,10 @@ div.footer-btn {
   margin: 4.9rem 0;
 }
 
+@media only screen and (max-width: 479px) {
+  #confidence-section-pricing { width: 90%; }
+}
+
 #confidence-section-pricing p {
   line-height: 2;
   font-size: 1rem;
@@ -641,6 +645,10 @@ div.footer-btn {
   margin: 4.9rem 0;
 }
 
+@media only screen and (max-width: 479px) {
+  #confidence-section-blog-links { width: 90%; }
+}
+
 #confidence-section-blog-links h2 {
   color: rgb(0, 51, 85);
   padding-bottom: 1rem;
@@ -655,6 +663,7 @@ div.footer-btn {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 0 3.5rem 0 3.5rem;
 }
 
 @media only screen and (max-width: 479px) {
