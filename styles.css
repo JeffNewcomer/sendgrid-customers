@@ -457,6 +457,7 @@ div.footer-btn {
   justify-content: space-around;
   min-width: 195px;
   order: 1;
+  margin: 1rem 0;
 }
 
 #nav-bottom-center {
@@ -469,6 +470,7 @@ div.footer-btn {
   text-align: center;
   order: 2;
   justify-content: space-around;
+  margin: 1rem 0;
 }
 
 .nav-bar-center-links {
@@ -484,11 +486,11 @@ div.footer-btn {
   flex-flow: column wrap;
   min-width: 195px;
   order: 3;
+  margin: 1rem 0;
 }
 
 #sendgrid-nav-logo {
   width: 9.5rem;
-  padding: 20px 0;
 }
 
 #nav-top a {
