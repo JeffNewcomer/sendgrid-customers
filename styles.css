@@ -179,21 +179,27 @@ button {
   display: flex;
 }
 
-#did-you-know-section h1 {
+.did-you-know-header h1 {
   margin-bottom: 4.2rem;
+}
+
+p.did-you-know-text {
+  margin: 0;
 }
 
 .did-you-know-text {
   color: rgb(53, 199, 116);
   line-height: 1.5;
   font-weight: bolder;
+  padding-right: 6.2rem;
+  padding-top: -1rem;
 }
 
 .did-you-know-card {
   width: 27rem;
   height: 12rem;
   box-shadow: -1px 27px 31px -22px rgba(173, 173, 173, 1);
-  margin: 0.5rem;
+  margin: 1rem;
   border: 0.5px solid lightgray;
   text-align: left;
   padding-left: 1.5rem;
@@ -204,7 +210,7 @@ button {
 }
 
 @media only screen and (max-width: 479px) {
-  .did-you-know-card { width: 90%; }
+  .did-you-know-card { width: 80%; }
 }
 
 .logo-container {
@@ -288,6 +294,12 @@ button {
   border: 0.5px solid rgb(66, 89, 111);
 }
 
+div.row.sub-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
+
 .links-lists {
   list-style-type: none;
   padding: 0;
@@ -331,7 +343,7 @@ p.case-studies-text-top {
 }
 
 .sub-footer-legal a {
-  padding-left: 2rem;
+  padding: 0.5rem;
   color: rgb(213, 218, 223);
 }
 
