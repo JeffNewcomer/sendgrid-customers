@@ -634,7 +634,8 @@ div.col.flex-container {
 #confidence-section-pricing {
   color: white;
   width: 29rem;
-  height: 12.5rem;
+  /* height: 12.5rem; */
+  height: auto;
   flex-shrink: 0;
   margin: 4.9rem 0;
 }
@@ -653,7 +654,8 @@ div.col.flex-container {
   background-color: white;
   color: #4da6e5;
   width: 21rem;
-  height: 17rem;
+  /* height: 17rem; */
+  height: auto;
   padding: 1rem 1rem 2rem 2rem;
   flex-shrink: 0;
   margin: 4.9rem 0;
