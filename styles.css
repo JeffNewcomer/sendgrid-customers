@@ -118,13 +118,12 @@ button {
 
 .case-studies-image-container {
   width: 460px;
-  height: 405px;
+  min-height: 405px;
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
   margin: 2rem;
-  flex-shrink: 0;
 }
 
 .case-studies-text-top {
@@ -324,7 +323,8 @@ div.row.sub-footer {
   margin: 18rem 2rem 0 2rem;
   font-size: 1rem;
   line-height: 1;
-  position: absolute;
+  position: relative;
+  padding-bottom: 0.5rem;
 }
 
 p.case-studies-text-top {
@@ -634,7 +634,6 @@ div.col.flex-container {
 #confidence-section-pricing {
   color: white;
   width: 29rem;
-  /* height: 12.5rem; */
   height: auto;
   flex-shrink: 0;
   margin: 4.9rem 0;
@@ -654,7 +653,6 @@ div.col.flex-container {
   background-color: white;
   color: #4da6e5;
   width: 21rem;
-  /* height: 17rem; */
   height: auto;
   padding: 1rem 1rem 2rem 2rem;
   flex-shrink: 0;
@@ -680,10 +678,6 @@ div.col.flex-container {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 0 3.5rem 0 3.5rem;
-}
-
-@media only screen and (max-width: 479px) {
-  .case-studies-image-container { width: 80%; }
 }
 
 #bottom-footer {
