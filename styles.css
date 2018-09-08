@@ -538,7 +538,7 @@ div.footer-btn {
 }
 
 #company-logo-container {
-  margin: 0 auto 2rem auto;
+  margin: 1rem auto 2rem auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -554,7 +554,7 @@ div.footer-btn {
   background-image: url("images/hero-background.svg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: auto 65%;
+  background-size: auto 60%;
   line-height: 1.5;
   text-align: center;
 }
@@ -568,6 +568,7 @@ div.footer-btn {
 .company-statistics {
   width: 800px;
   flex-shrink: 0;
+  margin-top: 2rem;
 }
 
 #company-statistics-container h2 {
