@@ -99,7 +99,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 0.55rem;
   width: 100%;
 }
 
@@ -209,7 +209,7 @@ p.did-you-know-text {
 }
 
 @media only screen and (max-width: 479px) {
-  .did-you-know-card { width: 80%; }
+  .did-you-know-card { width: 85%; }
 }
 
 .logo-container {
@@ -606,7 +606,7 @@ div.col.flex-container {
 }
 
 @media only screen and (max-width: 479px) {
-  div.col.flex-container { width: 90%; }
+  div.col.flex-container { width: 95%; }
 }
 
 #plans-pricing-button {
@@ -640,7 +640,7 @@ div.col.flex-container {
 }
 
 @media only screen and (max-width: 479px) {
-  #confidence-section-pricing { width: 90%; }
+  #confidence-section-pricing { width: 95%; }
 }
 
 #confidence-section-pricing p {
@@ -660,7 +660,7 @@ div.col.flex-container {
 }
 
 @media only screen and (max-width: 479px) {
-  #confidence-section-blog-links { width: 90%; }
+  #confidence-section-blog-links { width: 95%; }
 }
 
 #confidence-section-blog-links h2 {
