@@ -118,13 +118,12 @@ button {
 
 .case-studies-image-container {
   width: 460px;
-  height: 405px;
+  min-height: 405px;
   background-position: top;
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
   margin: 2rem;
-  flex-shrink: 0;
 }
 
 .case-studies-text-top {
@@ -324,7 +323,8 @@ div.row.sub-footer {
   margin: 18rem 2rem 0 2rem;
   font-size: 1rem;
   line-height: 1;
-  position: absolute;
+  position: relative;
+  padding-bottom: 1rem;
 }
 
 p.case-studies-text-top {
@@ -520,26 +520,25 @@ div.footer-btn {
 }
 
 #companies-big-text-top {
-  margin: 4rem auto 2rem auto;
+  margin: 1rem auto 2rem auto;
   color: white;
 }
 
 #companies-big-text-top h1 {
-  margin-top: 0.65rem;
   font-size: 2.25rem;
   font-family: 'ColfaxWebMedium';
   font-weight: lighter;
+  padding-top: 4rem;
 }
 
 #companies-big-text-top h2 {
   line-height: 1.9;
-  margin: 1.5rem 0 0 0;
   font-family: 'ColfaxRegular';
   font-weight: lighter;
 }
 
 #company-logo-container {
-  margin: 0 auto 2rem auto;
+  margin: 1rem auto 2rem auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -555,7 +554,7 @@ div.footer-btn {
   background-image: url("images/hero-background.svg");
   background-position: top;
   background-repeat: no-repeat;
-  background-size: auto 440px;
+  background-size: auto 60%;
   line-height: 1.5;
   text-align: center;
 }
@@ -569,6 +568,7 @@ div.footer-btn {
 .company-statistics {
   width: 800px;
   flex-shrink: 0;
+  margin-top: 2rem;
 }
 
 #company-statistics-container h2 {
@@ -634,7 +634,6 @@ div.col.flex-container {
 #confidence-section-pricing {
   color: white;
   width: 29rem;
-  /* height: 12.5rem; */
   height: auto;
   flex-shrink: 0;
   margin: 4.9rem 0;
@@ -654,7 +653,6 @@ div.col.flex-container {
   background-color: white;
   color: #4da6e5;
   width: 21rem;
-  /* height: 17rem; */
   height: auto;
   padding: 1rem 1rem 2rem 2rem;
   flex-shrink: 0;
@@ -680,10 +678,6 @@ div.col.flex-container {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 0 3.5rem 0 3.5rem;
-}
-
-@media only screen and (max-width: 479px) {
-  .case-studies-image-container { width: 80%; }
 }
 
 #bottom-footer {
