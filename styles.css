@@ -144,22 +144,22 @@ button {
 
 .meetup {
   background-image: url('images/meetup-image.png');
-  background-size: cover 57%;
+  background-size: auto 60%;
 }
 
 .ebay {
   background-image: url('images/image-ebay-customers.jpg');
-  background-size: cover 59%;
+  background-size: auto 60%;
 }
 
 .gusto {
   background-image: url('images/gusto-office-e1520473893608-940x374.jpg');
-  background-size: cover 58%;
+  background-size: auto 60%;
 }
 
 .couchsurfing {
   background-image: url('images/image-couchsurfing-customers.jpg');
-  background-size: cover 59%;
+  background-size: auto 60%;
 }
 
 .large-numbers {
