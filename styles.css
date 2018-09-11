@@ -90,8 +90,9 @@ button {
 }
 
 .case-studies-logo {
-  width: 4rem;
-  margin: 15rem 2rem 0 2rem;
+  width: 4.5rem;
+  margin-top: 14rem;
+  padding: 0 2rem;
   position: absolute;
 }
 
@@ -320,11 +321,15 @@ div.row.sub-footer {
 
 .case-studies-image-container p {
   color: white;
-  margin: 18rem 2rem 0 2rem;
+  margin-top: 17rem;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.25;
   position: relative;
-  padding-bottom: 1rem;
+  padding: 0 2rem 1.5rem 2rem;
+}
+
+.case-studies-image-container.larger-text p {
+  font-size: 1.125rem;
 }
 
 p.case-studies-text-top {
@@ -430,7 +435,7 @@ p.case-studies-text-top {
 }
 
 img#couchsurfing-logo.case-studies-logo {
-  width: 4.5rem;
+  width: 5.5rem;
 }
 
 div.footer-btn {
